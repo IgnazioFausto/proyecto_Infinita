@@ -3,8 +3,8 @@
   margin: 0;
 }
 body {
-  width: 1920px;
-  height: 1080px;
+  width: 390px;
+  height: 100vh;
 }
 /* INDEX */
 .index {
@@ -17,12 +17,9 @@ body {
   box-sizing: border-box;
 }
 .nav {
-  position: sticky;
-  z-index: 1;
-  width: 1920px;
-  height: 92px;
-  left: 0px;
-  top: 0px;
+  position: fixed;
+  width: 390px;
+  height: 82px;
   background: #e7d4b6;
 }
 .navLink a {
@@ -57,37 +54,45 @@ body {
 }
 .brand-lg {
   position: relative;
-  width: 1003px;
-  height: 669px;
-  left: 467px;
-  top: 72px;
+  width: 349px;
+  height: 233px;
+  left: 21px;
+  top: 172px;
 }
 .titulo {
   position: absolute;
-  width: 1022px;
-  height: 128px;
-  left: 458px;
-  top: 696px;
-  font-family: Cinzel;
+  width: 349px;
+  height: 44px;
+  left: 21px;
+  top: 405px;
+
+  font-family: "Cinzel";
   font-style: normal;
-  font-weight: normal;
-  font-size: 95px;
-  line-height: 128px;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 44px;
+
+  /* LETRA */
+
   color: #778690;
 }
 .subTitulo {
   position: absolute;
-  width: auto;
-  height: 38px;
-  left: 212px;
-  top: 864px;
-  font-family: Lora;
+  width: 347px;
+  height: 78px;
+  left: 22px;
+  top: 520px;
+
+  font-family: "Lora";
   font-style: italic;
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 38px;
-  color: #b1b9c6;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
   text-align: center;
+
+  /* gris */
+
+  color: #b1b9c6;
 }
 /* sobre mi  */
 .sobreMi {
@@ -100,59 +105,68 @@ body {
 }
 .tituloSobreMi {
   position: absolute;
-  width: 797px;
-  height: 141px;
-  left: 561px;
-  top: -4px;
-  font-family: Cinzel;
+  width: 184px;
+  height: 32px;
+  left: 103px;
+  top: 22px;
+
+  font-family: "Cinzel";
   font-style: normal;
-  font-weight: normal;
-  font-size: 100px;
-  line-height: 135px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+
+  /* 2 */
+
   color: #606e77;
 }
 .subTituloSobreMi {
   position: absolute;
-  width: 1247px;
-  height: 43px;
-  left: 336px;
-  top: 5px;
-  font-family: Cinzel;
-  font-style: bold;
-  font-weight: 900;
-  font-size: 32px;
-  line-height: 43px;
+  width: 355px;
+  height: 81px;
+  left: 18px;
+  top: 61px;
+
+  font-family: "Cinzel";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
   text-align: center;
+
   color: #606e77;
 }
 .contenidoSobreMi {
   position: absolute;
-  width: 1920px;
-  height: 929px;
+  width: 100%;
+  height: 100%;
   left: 0px;
   top: 151px;
   background: #e7d4b6;
 }
 .profilePhoto {
   position: absolute;
-  width: 1113px;
-  height: 402px;
-  left: 403px;
-  top: 69px;
-  border-radius: 15px;
+  width: 415px;
+  height: 162px;
+  left: -13px;
+  top: 19px;
 }
 .contenidoSobreMi p {
   position: absolute;
-  width: 1113px;
-  height: 355px;
-  left: 397px;
-  top: 521px;
-  font-family: Lora;
+  width: 348px;
+  height: 366px;
+  left: 23px;
+  top: 210px;
+
+  font-family: "Lora";
   font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 31px;
-  text-align: justify;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+
+  /* 2 */
+
   color: #606e77;
 }
 .estrellas {
@@ -177,54 +191,66 @@ body {
   border-radius: 0px;
 }
 .tituloCartaNatal {
-  position: relative;
-  width: 487px;
-  height: 94px;
-  left: 717px;
-  top: 29px;
+  position: absolute;
+  width: 157px;
+  height: 32px;
+  left: 117px;
+  top: 14px;
+
   font-family: "Cinzel";
   font-style: normal;
   font-weight: 400;
-  font-size: 70px;
-  line-height: 94px;
-  color: #e7d4b6;
-  text-align: center;
+  font-size: 24px;
+  line-height: 32px;
+
+  /* 2 */
+
+  color: #606e77;
 }
 .contenidoCartaNatal {
   position: absolute;
-  width: 1920px;
-  height: 852px;
+  width: 100%;
+  height: 100%;
   left: 0px;
   top: 142px;
   background: #e4cdbb;
 }
 .subTituloCartaNatal {
   position: absolute;
-  width: 1247px;
-  height: 43px;
-  left: 336px;
-  top: 28.03px;
-  font-family: Cinzel;
-  font-style: bold;
-  font-weight: 900;
-  font-size: 32px;
-  line-height: 43px;
-  text-align: center;
+  width: 252px;
+  height: 27px;
+  left: 69px;
+  top: 58px;
+
+  font-family: "Cinzel";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  /* identical to box height */
+
+  text-align: justify;
+
+  /* 2 */
+
   color: #606e77;
 }
 .contenidoCartaNatal p {
   position: absolute;
-  width: 1150px;
-  height: 158px;
-  left: 385px;
-  top: 123px;
-  text-indent: 5rem;
+  width: 348px;
+  height: 108px;
+  left: 21px;
+  top: 98px;
+
   font-family: "Lora";
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
-  line-height: 38px;
+  font-size: 14px;
+  line-height: 18px;
   text-align: justify;
+
+  /* 2 */
+
   color: #606e77;
 }
 .indian-house {
@@ -243,23 +269,27 @@ body {
 }
 .botonCoaching {
   position: absolute;
-  width: 524px;
-  height: 145px;
-  left: 698px;
-  top: 642px;
-  background: #606e77;
-  border: 5px solid #606e77;
-  box-sizing: border-box;
-  border-radius: 500px;
+  width: 141px;
+  height: 39px;
+  left: 125px;
+  top: 433px;
 }
 .botonCoaching a {
+  position: absolute;
+  left: 19.27%;
+  right: 16.19%;
+  top: 26.9%;
+  bottom: 24.39%;
+
   font-family: "Cinzel";
   font-style: normal;
   font-weight: 700;
-  font-size: 50px;
-  line-height: 67px;
-  text-align: center;
-  text-decoration: none;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: justify;
+
   color: #ffffff;
 }
 .coaching {
@@ -272,53 +302,71 @@ body {
 }
 .contenidoCoaching {
   position: absolute;
-  width: 1920px;
-  height: 852px;
+  width: 390px;
+  height: 412px;
+  position: absolute;
+  width: 390px;
+  height: 412px;
   left: 0px;
-  top: 151px;
+  top: 118px;
+
+  /* gris */
+
   background: #b1b9c6;
 }
 .tituloCoaching {
   position: absolute;
-  width: 888px;
-  height: 94px;
-  left: 516px;
-  top: 36px;
+  width: 305px;
+  height: 32px;
+  left: 43px;
+  top: 143px;
+
   font-family: "Cinzel";
   font-style: normal;
   font-weight: 400;
-  font-size: 70px;
-  line-height: 94px;
-  text-align: center;
-  color: #e7d4b6;
+  font-size: 24px;
+  line-height: 32px;
+
+  /* 2 */
+
+  color: #606e77;
 }
 .subTituloCoaching {
   position: absolute;
-  width: 657px;
-  height: 47px;
-  left: 631px;
-  top: 25.56px;
+  width: 376px;
+  height: 27px;
+  left: 7px;
+  top: 187.81px;
+
   font-family: "Cinzel";
   font-style: normal;
   font-weight: 700;
-  font-size: 35px;
-  line-height: 47px;
+  font-size: 20px;
+  line-height: 27px;
+  /* identical to box height */
+
   text-align: justify;
+
+  /* verde */
+
   color: #ebede6;
 }
 .contenidoCoaching p {
   position: absolute;
-  width: 1150px;
-  height: 213px;
-  left: 385px;
-  top: 121px;
+  width: 348px;
+  height: 144px;
+  left: 21px;
+  top: 227px;
+
   font-family: "Lora";
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
-  line-height: 38px;
+  font-size: 14px;
+  line-height: 18px;
   text-align: justify;
-  text-indent: 5rem;
+
+  /* verde */
+
   color: #ebede6;
 }
 .estrellas4 {
@@ -330,30 +378,34 @@ body {
 }
 .faro {
   position: absolute;
-  width: 711px;
-  height: 811px;
-  left: 1200px;
-  top: 125px;
+  width: 154px;
+  height: 130px;
+  left: 266px;
+  top: 342px;
 }
 .botonCartaNatal {
   position: absolute;
-  width: 524px;
-  height: 145px;
-  left: 698px;
-  top: 642px;
-  background: #606e77;
-  border: 5px solid #606e77;
-  box-sizing: border-box;
-  border-radius: 500px;
+  width: 141px;
+  height: 39px;
+  left: 125px;
+  top: 358px;
 }
 .botonCartaNatal a {
+  position: absolute;
+  left: 19.27%;
+  right: 16.19%;
+  top: 26.9%;
+  bottom: 24.39%;
+
   font-family: "Cinzel";
   font-style: normal;
   font-weight: 700;
-  font-size: 50px;
-  line-height: 67px;
-  text-align: center;
-  text-decoration: none;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: justify;
+
   color: #ffffff;
 }
 /* otros */
@@ -367,16 +419,20 @@ body {
 }
 .tituloOtros {
   position: absolute;
-  width: 340px;
-  height: 94px;
-  left: 779px;
-  top: 11px;
+  width: 117px;
+  height: 32px;
+  left: 137px;
+  top: 12px;
+
   font-family: "Cinzel";
   font-style: normal;
   font-weight: 400;
-  font-size: 70px;
-  line-height: 94px;
-  color: #e7d4b6;
+  font-size: 24px;
+  line-height: 32px;
+
+  /* 2 */
+
+  color: #606e77;
 }
 .estrellas5 {
   position: absolute;
@@ -387,8 +443,8 @@ body {
 }
 .contenidoOtros {
   position: absolute;
-  width: 1920px;
-  height: 839px;
+  width: auto;
+  height: auto;
   left: 0px;
   top: 104px;
   background: #ebede6;
@@ -399,141 +455,149 @@ body {
 }
 .tarjeta1 {
   position: absolute;
-  width: 553px;
-  height: 331px;
-  left: 336px;
-  top: 210px;
-  background: #606e77;
-  border-radius: 15px;
+  width: 348px;
+  height: 166px;
+  left: 21px;
+  top: 56px;
 }
 .btnTarjeta1 {
   position: absolute;
-  width: 368.02px;
-  height: 101.38px;
-  left: 428px;
-  top: 561px;
-  background: #606e77;
-  border: 5px solid #606e77;
-  box-sizing: border-box;
-  border-radius: 500px;
+  width: 141px;
+  height: 39px;
+  left: 125px;
+  top: 234px;
 }
 .btnTarjeta1 a {
   position: absolute;
-  width: 226px;
-  height: 47px;
-  left: 73px;
-  top: 27px;
-  text-decoration: none;
+  left: 19.27%;
+  right: 16.19%;
+  top: 26.9%;
+  bottom: 24.39%;
+
   font-family: "Cinzel";
   font-style: normal;
   font-weight: 700;
-  font-size: 35px;
-  line-height: 47px;
-  text-align: center;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: justify;
+
   color: #ffffff;
 }
 .tituloTarjeta1 {
   position: absolute;
-  width: 100%;
-  height: 45px;
-  align-items: center;
-  top: 17px;
-  left: 169px;
+  width: 96px;
+  height: 23px;
+  left: 126px;
+  top: 15px;
+
   font-family: "Lora";
   font-style: normal;
   font-weight: 600;
-  font-size: 35px;
-  line-height: 45px;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+
+  /* verde */
+
   color: #ebede6;
 }
 .tarjeta1 p {
   position: absolute;
-  width: 480.52px;
-  height: 175px;
-  left: 62px;
-  top: 120px;
+  width: 292px;
+  height: 93px;
+  left: 51px;
+  top: 58px;
+
   font-family: "Lora";
   font-style: normal;
   font-weight: 400;
-  font-size: 35px;
-  line-height: 61px;
+  font-size: 14px;
+  line-height: 35px;
+
+  /* verde */
+
   color: #ebede6;
 }
 .tarjeta2 {
   position: absolute;
-  width: 553px;
-  height: 331px;
-  left: 1030px;
-  top: 210px;
-  background: #606e77;
-  border-radius: 15px;
+  width: 348px;
+  height: 135px;
+  left: 21px;
+  top: 337px;
 }
 .btnTarjeta2 {
   position: absolute;
-  width: 368.02px;
-  height: 101.38px;
-  left: 1122px;
-  top: 561px;
-  background: #606e77;
-  border: 5px solid #606e77;
-  box-sizing: border-box;
-  border-radius: 500px;
+  width: 141px;
+  height: 39px;
+  left: 125px;
+  top: 484px;
 }
 .btnTarjeta2 a {
   position: absolute;
-  width: 226px;
-  height: 47px;
-  left: 73px;
-  top: 27px;
-  text-decoration: none;
+  left: 19.27%;
+  right: 16.19%;
+  top: 26.9%;
+  bottom: 24.39%;
+
   font-family: "Cinzel";
   font-style: normal;
   font-weight: 700;
-  font-size: 35px;
-  line-height: 47px;
-  text-align: center;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: justify;
+
   color: #ffffff;
 }
 .tituloTarjeta2 {
   position: absolute;
-  width: 263px;
-  height: 45px;
-  left: 145px;
-  top: 17px;
-  text-align: center;
+  width: 115px;
+  height: 23px;
+  left: 117px;
+  top: 15px;
+
   font-family: "Lora";
   font-style: normal;
   font-weight: 600;
-  font-size: 35px;
-  line-height: 45px;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+
+  /* verde */
+
   color: #ebede6;
 }
 .tarjeta2 p {
   position: absolute;
-  width: 373px;
-  height: 194px;
-  left: 62px;
-  top: 103px;
+  width: 311px;
+  height: 59px;
+  left: 51px;
+  top: 55px;
+
   font-family: "Lora";
   font-style: normal;
   font-weight: 400;
-  font-size: 35px;
-  line-height: 61px;
+  font-size: 14px;
+  line-height: 35px;
+
   color: #ffffff;
 }
 .circulos {
   position: absolute;
-  width: 23.1px;
-  height: 150px;
-  left: 27px;
-  top: 135px;
+  width: 13px;
+  height: 90px;
+  left: 12px;
+  top: 61px;
 }
 .circulos2 {
   position: absolute;
-  width: 20px;
-  height: 85px;
-  left: 24px;
-  top: 118px;
+  width: 13px;
+  height: 51px;
+  left: 15px;
+  top: 65px;
 }
 /* contactame */
 .contactame {
@@ -546,183 +610,216 @@ body {
 }
 .tituloContactame {
   position: absolute;
-  width: 474px;
-  height: 94px;
-  left: 705px;
-  top: 99px;
+  width: 164px;
+  height: 32px;
+  left: 114px;
+  top: 47px;
+
   font-family: "Cinzel";
   font-style: normal;
   font-weight: 400;
-  font-size: 70px;
-  line-height: 94px;
+  font-size: 24px;
+  line-height: 32px;
+
+  /* 2 */
+
   color: #606e77;
 }
 .cajaEmail {
   position: absolute;
-  width: 451px;
-  height: 246px;
-  left: 257px;
-  top: 294px;
-  background: #e4cdbb;
-  border-radius: 20px;
+  width: 348px;
+  height: 97px;
+  left: 21px;
+  top: 90px;
 }
 .cajaRRSS {
   position: absolute;
-  width: 451px;
-  height: 147px;
-  left: 257px;
-  top: 553px;
-  background: #e4cdbb;
-  border-radius: 20px;
+  width: 348px;
+  height: 52.9px;
+  left: 21px;
+  top: 199px;
+}
+.cajaRRSS div {
+  text-align: center;
 }
 .cajaRRSS img {
-  width: 70px;
-  margin: 2.3rem;
+  width: 35px;
+  margin: 9px 20px;
 }
 .cajaEmail img {
   position: absolute;
-  width: 60px;
-  height: 60px;
-  left: 195px;
-  top: 19px;
+  width: 25.31px;
+  height: 24px;
+  left: 161px;
+  top: 7px;
 }
 .cajaEmail h6 {
   position: absolute;
-  width: 91px;
-  height: 40px;
-  left: 180px;
-  top: 93px;
+  width: 55px;
+  height: 24px;
+  left: 147px;
+  top: 35px;
+
   font-family: "Cinzel";
   font-style: normal;
   font-weight: 700;
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 18px;
+  line-height: 24px;
+
   color: #ffffff;
 }
 .cajaEmail p {
   position: absolute;
-  width: 367px;
-  height: 26px;
-  left: 42px;
-  top: 163px;
+  width: 257px;
+  height: 18px;
+  left: 47px;
+  top: 60px;
+
   font-family: "Lora";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
   color: rgba(255, 255, 255, 0.78);
+}
+.consultanos {
+  position: absolute;
+  width: 214px;
+  height: 23px;
+  left: 88px;
+  top: 288px;
+
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+
+  /* LETRA */
+
+  color: #778690;
 }
 .form {
   position: absolute;
-  width: 627px;
-  height: 723px;
-  left: 876px;
-  top: 261px;
+  width: auto;
+  height: auto;
+  left: 18px;
+  top: 307px;
 }
 .inputName {
-  position: relative;
-  width: 627px;
-  height: 80px;
-  border: 2px solid #a98b73;
+  position: absolute;
+  width: 351px;
+  height: 52px;
+  left: 0px;
+  top: 28px;
+
+  border: 1px solid #a98b73;
   box-sizing: border-box;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 .labelNombre {
-  position: relative;
-  width: 139px;
-  height: 34px;
+  position: absolute;
+  width: 80px;
+  height: 24px;
+  left: 22px;
+  top: 18px;
+  position: absolute;
+  width: 54px;
+  height: 18px;
   font-family: "Lora";
   font-style: normal;
   font-weight: 700;
-  font-size: 25px;
-  line-height: 32px;
-  left: 3rem;
-  top: 1.4rem;
-  z-index: 2;
-  padding: 0.3rem;
-  text-align: center;
-  display: block;
-  align-items: center;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+  padding: auto 13px;
   color: rgba(255, 255, 255, 0.84);
-  background: #e4cdbb;
-  border-radius: 5px;
 }
 .inputEmail {
   position: relative;
-  width: 627px;
-  height: 80px;
-  top: 9px;
-  border: 2px solid #a98b73;
+  width: 351px;
+  height: 52px;
+  left: 0px;
+  top: 89px;
+  border: 1px solid #a98b73;
   box-sizing: border-box;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 .labelEmail {
-  position: relative;
-  width: 139px;
-  height: 34px;
+  position: absolute;
+  width: 30px;
+  height: 18px;
+
+  left: 22px;
+  top: 89px;
   font-family: "Lora";
   font-style: normal;
   font-weight: 700;
-  font-size: 25px;
-  line-height: 32px;
-  left: 3rem;
-  top: 1.9rem;
-  z-index: 2;
-  padding: 0.3rem;
-  text-align: center;
-  display: block;
-  align-items: center;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  width: 56px;
+  padding: auto 13px;
+
   color: rgba(255, 255, 255, 0.84);
-  background: #e4cdbb;
-  border-radius: 5px;
 }
 .inputText {
-  position: relative;
-  width: 627px;
-  height: 335px;
-  top: 18px;
-  border: 2px solid #a98b73;
+  position: absolute;
+  width: 351px;
+  height: 270px;
+  left: 0px;
+  top: 189px;
+
+  border: 1px solid #a98b73;
   box-sizing: border-box;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 .labelText {
-  position: relative;
-  width: 139px;
-  height: 34px;
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: 22px;
+  top: 178px;
+  position: absolute;
+  width: 60px;
+  height: 18px;
+  padding: auto 13px;
   font-family: "Lora";
   font-style: normal;
   font-weight: 700;
-  font-size: 25px;
-  line-height: 32px;
-  left: 3rem;
-  top: 2.5rem;
-  z-index: 2;
-  padding: 0.3rem;
-  text-align: center;
-  display: block;
-  align-items: center;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
   color: rgba(255, 255, 255, 0.84);
-  background: #e4cdbb;
-  border-radius: 5px;
 }
 .btnForm {
   position: relative;
-  width: 288px;
-  height: 80px;
-  top: 51px;
-  background: #778690;
-  border: 2px solid #606e77;
-  box-sizing: border-box;
-  border-radius: 100px;
+  width: 94px;
+  height: 39px;
+  left: 130px;
+  top: 415px;
 }
 .btnForm a {
-  position: relative;
-  font-family: "Roboto";
+  position: absolute;
+  left: 19.27%;
+  right: 20.09%;
+  top: 26.9%;
+  bottom: 24.39%;
+
+  font-family: "Cinzel";
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  text-decoration: none;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: justify;
+
   color: #ffffff;
 }
 form input::placeholder {
@@ -748,6 +845,3 @@ form input {
   text-align: left;
   padding: 0.3rem;
 }
-
-
-
