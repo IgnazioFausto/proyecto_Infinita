@@ -3,9 +3,6 @@
   margin: 0;
 }
 
-@import url("./medias/390Mobile.css") screen and (max-width:391px) ;
-
-
 body {
   width: auto;
   height: 1080px;
@@ -114,7 +111,7 @@ body {
   width: 797px;
   height: 141px;
   left: 561px;
-  top: 0px;
+  top: 22px;
   font-family: Cinzel;
   font-style: normal;
   font-weight: normal;
@@ -228,7 +225,6 @@ body {
   height: 158px;
   left: 385px;
   top: 123px;
-  text-indent: 5rem;
   font-family: "Lora";
   font-style: normal;
   font-weight: 400;
@@ -328,7 +324,6 @@ body {
   font-size: 30px;
   line-height: 38px;
   text-align: justify;
-  text-indent: 5rem;
   color: #ebede6;
 }
 .estrellas4 {
@@ -760,4 +755,870 @@ form input {
   letter-spacing: 0em;
   text-align: left;
   padding: 0.3rem;
+}
+
+/* mobile */
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    width: 390px;
+    height: 844px;
+    margin: 0;
+    padding: 0;
+  }
+  .container-fluid {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* INDEX */
+  .index {
+    height: 100%;
+    width: 100%;
+    border-radius: 0px;
+    position: relative;
+    background: white;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+  }
+  .nav {
+    position: sticky;
+    z-index: 1;
+    width: 100%;
+    height: 92px;
+    left: 0px;
+    top: 0px;
+    background: #e7d4b6;
+  }
+  .navLink a {
+    position: relative;
+    width: auto;
+    height: 27px;
+    font-family: Cinzel Decorative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    margin: 0 15px;
+    color: #000000;
+    text-decoration: none;
+  }
+  .navLista {
+    position: relative;
+    width: 100%;
+    height: 17px;
+    left: 35%;
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+  }
+  .brand {
+    position: absolute;
+    width: 106px;
+    height: 82px;
+    left: 71px;
+    top: 0px;
+  }
+  .brand-lg {
+    position: absolute;
+    width: 349px;
+    height: 233px;
+    left: 0px;
+    top: 90px;
+    margin: 0 5%;
+  }
+  .titulo {
+    position: absolute;
+    width: 349px;
+    height: 44px;
+    left: 21px;
+    top: 323px;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 44px;
+    margin: 0;
+    color: #778690;
+  }
+  .subTitulo {
+    position: absolute;
+    width: 347px;
+    height: 78px;
+    left: 22px;
+    top: 438px;
+    margin: 0;
+    font-family: "Lora";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+
+    /* gris */
+
+    color: #b1b9c6;
+  }
+  /* sobre mi  */
+  .sobreMi {
+    position: relative;
+    width: 390px;
+    height: 100%;
+    background: #e7d4b6;
+
+    border: 1px solid #000000;
+    box-sizing: border-box;
+  }
+  .tituloSobreMi {
+    position: relative;
+    width: 184px;
+    height: 32px;
+
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+
+    /* 2 */
+    left: 103px;
+    top: 22;
+    color: #606e77;
+  }
+  .subTituloSobreMi {
+    position: relative;
+    width: 355px;
+    height: 81px;
+    left: 18px;
+    top: -120px;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #606e77;
+  }
+  .contenidoSobreMi {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 48px;
+    background: #e7d4b6;
+  }
+  .profilePhoto {
+    position: absolute;
+    width: 99%;
+    height: 162px;
+    left: 1px;
+    top: 133px;
+  }
+  .contenidoSobreMi p {
+    position: absolute;
+    width: 348px;
+    height: 366px;
+    left: 23px;
+    top: 324px;
+
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+
+    /* 2 */
+
+    color: #606e77;
+  }
+  .estrellas {
+    position: relative;
+    width: 25.1px;
+    height: 34px;
+    left: 355px;
+
+    transform: matrix(1.5, 0, 0, -1, 0, -1);
+    z-index: 2;
+    height: 136px;
+    left: 155px;
+    top: 89px;
+  }
+  .estrellas2 {
+    position: absolute;
+    width: 28.1px;
+    height: 39px;
+    left: 12px;
+    top: 685px;
+
+    transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+  /* carta natal */
+  .cartaNatal {
+    height: 50%;
+    width: 390px;
+    background: #e4cdbb;
+
+    position: relative;
+    border-radius: 0px;
+  }
+  .tituloCartaNatal {
+    position: absolute;
+    width: 166px;
+    height: 32px;
+    left: 117px;
+    top: 14px;
+
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+
+    /* 2 */
+
+    color: #606e77;
+  }
+  .contenidoCartaNatal {
+    position: absolute;
+    width: 100%;
+    height: 852px;
+    left: 0px;
+    top: 142px;
+    background: #e4cdbb;
+  }
+  .subTituloCartaNatal {
+    position: absolute;
+    width: 252px;
+    height: 27px;
+    left: 69px;
+    top: -80px;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: justify;
+
+    /* 2 */
+
+    color: #606e77;
+  }
+  .contenidoCartaNatal p {
+    position: absolute;
+    width: 348px;
+    height: 108px;
+    left: 21px;
+    top: -35px;
+
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: justify;
+
+    /* 2 */
+
+    color: #606e77;
+  }
+  .indian-house {
+    position: absolute;
+    width: 79px;
+    height: 79px;
+    left: 0px;
+    top: 136px;
+  }
+  .estrellas3 {
+    position: absolute;
+    width: 98px;
+    height: 136px;
+    left: 469px;
+    top: 319px;
+  }
+  .botonCartaNatal {
+    position: absolute;
+    width: 141px;
+    height: 39px;
+    left: 125px;
+    top: 176px;
+  }
+  .botonCartaNatal a {
+    position: absolute;
+    left: 19.27%;
+    right: 16.19%;
+    top: 19%;
+    bottom: 24.39%;
+
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: justify;
+
+    color: #ffffff;
+  }
+  .botonCoaching {
+    position: absolute;
+    width: 141px;
+    height: 39px;
+    left: 125px;
+    top: 200px;
+  }
+  .botonCoaching a {
+    position: absolute;
+    left: 19.27%;
+    right: 16.19%;
+    top: 17%;
+    bottom: 24.39%;
+
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: justify;
+
+    color: #ffffff;
+  }
+  .coaching {
+    position: relative;
+    height: 50%;
+    width: 390px;
+
+    background: #b1b9c6;
+
+    border: 1px solid #000000;
+    box-sizing: border-box;
+  }
+  .contenidoCoaching {
+    position: absolute;
+    width: 100%;
+    height: 384px;
+    left: 0px;
+    top: 151px;
+    background: #b1b9c6;
+  }
+  .tituloCoaching {
+    position: absolute;
+    width: 305px;
+    height: 32px;
+    left: 43px;
+    top: 25px;
+
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+
+    /* 2 */
+    color: #606e77;
+  }
+  .subTituloCoaching {
+    position: absolute;
+    width: 376px;
+    height: 27px;
+    left: 7px;
+    top: -69px;
+
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: justify;
+
+    /* verde */
+
+    color: #ebede6;
+  }
+  .contenidoCoaching p {
+    position: absolute;
+    width: 348px;
+    height: 144px;
+    left: 21px;
+    top: -19px;
+
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: justify;
+
+    /* verde */
+
+    color: #ebede6;
+  }
+  .estrellas4 {
+    position: absolute;
+    width: 18px;
+    height: 24.98px;
+    left: 64px;
+    top: -327.98px;
+
+    transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+  .faro {
+    position: absolute;
+    width: 154px;
+    height: 130px;
+    left: 235px;
+    top: 122px;
+  }
+  /* otros */
+  .otros {
+    position: relative;
+    height: 100%;
+    width: 390px;
+
+    background: #ffffff;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+  }
+  .tituloOtros {
+    position: absolute;
+    width: 117px;
+    height: 32px;
+    left: 137px;
+    top: 12px;
+
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+
+    /* 2 */
+
+    color: #606e77;
+  }
+  .estrellas5 {
+    display: none;
+    position: absolute;
+    width: 98px;
+    height: 136px;
+    left: 107px;
+    top: 20px;
+  }
+  .contenidoOtros {
+    position: absolute;
+    width: 390px;
+
+    height: 839px;
+    left: 0px;
+    top: 104px;
+    background: #ebede6;
+  }
+  .tarjetasOtros {
+    position: absolute;
+    background-color: yellowgreen;
+    width: 390px;
+  }
+  .tarjeta1 {
+    position: absolute;
+    width: 348px;
+    height: 166px;
+    left: 21px;
+    top: 56px;
+  }
+  .btnTarjeta1 {
+    position: absolute;
+    width: 141px;
+    height: 39px;
+    left: 125px;
+    top: 234px;
+  }
+  .btnTarjeta1 a {
+    position: absolute;
+    left: 19.27%;
+    right: 16.19%;
+    top: 17%;
+    bottom: 24.39%;
+
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: justify;
+
+    color: #ffffff;
+  }
+  .tituloTarjeta1 {
+    position: absolute;
+    width: 96px;
+    height: 23px;
+    left: 126px;
+    top: 15px;
+
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ebede6;
+  }
+  .tarjeta1 p {
+    position: absolute;
+    width: 292px;
+    height: 93px;
+    left: 31px;
+    top: 48px;
+
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 39px;
+
+    /* verde */
+
+    color: #ebede6;
+  }
+  .tarjeta2 {
+    position: absolute;
+    width: 348px;
+    height: 135px;
+    left: 21px;
+    top: 323px;
+  }
+  .btnTarjeta2 {
+    position: absolute;
+    width: 141px;
+    height: 39px;
+    left: 125px;
+    top: 471px;
+  }
+  .btnTarjeta2 a {
+    position: absolute;
+    left: 19.27%;
+    right: 16.19%;
+    top: 17%;
+    bottom: 24.39%;
+
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: justify;
+
+    color: #ffffff;
+  }
+  .tituloTarjeta2 {
+    position: absolute;
+    width: 115px;
+    height: 23px;
+    left: 117px;
+    top: 15px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ebede6;
+  }
+  .tarjeta2 p {
+    position: absolute;
+    width: 311px;
+    height: 59px;
+    left: 31px;
+    top: 48px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 36px;
+
+    color: #ffffff;
+  }
+  .circulos {
+    position: absolute;
+    width: 13px;
+    height: 90px;
+    left: 12px;
+    top: 61px;
+  }
+  .circulos2 {
+    position: absolute;
+    width: 13px;
+    height: 51px;
+    left: 12px;
+    top: 59px;
+  }
+  /* contactame */
+  .contactame {
+    position: relative;
+    height: auto;
+    width: 390px;
+
+    background: #ffffff;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+  }
+  .tituloContactame {
+    position: absolute;
+    width: 164px;
+    height: 32px;
+    left: 114px;
+    top: 13px;
+
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+
+    /* 2 */
+
+    color: #606e77;
+  }
+  .cajaEmail {
+    position: absolute;
+    width: 348px;
+    height: 97px;
+    left: 21px;
+    top: 56px;
+    border-radius: 20px;
+  }
+  .cajaRRSS {
+    position: absolute;
+    width: 348px;
+    height: 52.9px;
+    left: 21px;
+    top: 165px;
+    text-align: center;
+    border-radius: 20px;
+  }
+  .cajaRRSS img {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 10px;
+    margin: 0 1rem;
+  }
+  .cajaEmail img {
+    position: absolute;
+    width: 25.31px;
+    height: 24px;
+    left: 161px;
+    top: 7px;
+  }
+  .cajaEmail h6 {
+    position: absolute;
+    width: 55px;
+    height: 24px;
+    left: 147px;
+    top: 35px;
+
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #ffffff;
+  }
+  .cajaEmail p {
+    width: 257px;
+    height: 18px;
+    left: 46px;
+    top: 60px;
+
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+    color: rgba(255, 255, 255, 0.78);
+  }
+  .consultanos {
+    position: absolute;
+    width: 214px;
+    height: 23px;
+    left: 88px;
+    top: 254px;
+    display: block;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+    /* LETRA */
+
+    color: #778690;
+  }
+  .form {
+    position: absolute;
+    width: 390px;
+    height: 723px;
+    left: 0px;
+    top: 271px;
+  }
+  .inputName {
+    position: relative;
+    width: 351px;
+    height: 52px;
+    left: 18px;
+    top: 48px;
+    border: 1px solid #a98b73;
+    box-sizing: border-box;
+    border-radius: 15px;
+  }
+  .labelNombre {
+    position: absolute;
+    width: 80px;
+    height: 24px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    left: 44px;
+    top: 2.3rem;
+    z-index: 2;
+    padding: 0.2rem 1rem;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+    color: rgba(255, 255, 255, 0.84);
+  }
+  .inputEmail {
+    position: absolute;
+    width: 351px;
+    height: 52px;
+    left: 18px;
+    top: 127px;
+
+    border: 1px solid #a98b73;
+    box-sizing: border-box;
+    border-radius: 15px;
+  }
+  .labelEmail {
+    position: absolute;
+    width: 66px;
+    height: 24px;
+    left: 45px;
+    top: 115px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    padding: 0.2rem 1rem;
+
+    color: rgba(255, 255, 255, 0.84);
+    /* naranja */
+
+    background: #e4cdbb;
+    border-radius: 5px;
+  }
+  .inputText {
+    position: absolute;
+    width: 351px;
+    height: 270px;
+    left: 19px;
+    top: 212px;
+    border: 1px solid #a98b73;
+    box-sizing: border-box;
+    border-radius: 15px;
+  }
+  .labelText {
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    left: 3rem;
+    top: 12.5rem;
+    z-index: 2;
+    padding: 0.3rem;
+    text-align: center;
+    display: block;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.84);
+    background: #e4cdbb;
+    border-radius: 5px;
+  }
+  .btnForm {
+    position: absolute;
+    width: 94px;
+    height: 39px;
+    left: 148px;
+    top: 510px;
+  }
+  .btnForm a {
+    position: absolute;
+    left: 19.27%;
+    right: 20.09%;
+    top: 26.9%;
+    bottom: 24.39%;
+
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: justify;
+
+    color: #ffffff;
+  }
+  form input::placeholder {
+    position: absolute;
+    width: auto;
+    height: 32px;
+    top: 12px;
+    left: 42px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+    color: #778690;
+  }
+  form input {
+    font-family: Lora;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0.3rem;
+  }
 }
