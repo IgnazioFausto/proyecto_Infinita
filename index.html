@@ -7,76 +7,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Infinita Serendipia</title>
     <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="stylesheet" href="styles/mobile.css" media="screen and (max-device-width: 425px) and (min-width:320px)"
-        href="desktop-style.css" />
+    <link rel="stylesheet" media="(max-width: 390px)" href="./styles/medias/390Mobile.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Cinzel&family=Cinzel+Decorative&family=Lora:wght@400;600&display=swap"
         rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 <body>
     <!-- NAVEGADOR -->
-    <nav class="nav">
-        <div class="brand">
-            <img src="./img/ilustraciones/brand.png" alt="brand-logo-small" class="brand">
-        </div>
-        <div class="menu">
-            <ul class="navLista">
-                <li class="navLink"><a href="#sobreMi">Sobre Mi</a></li>
-                <li class="navLink"><a href="#cartaNatal">Carta Natal</a></li>
-                <li class="navLink"><a href="#coaching">Coaching Astrológico</a></li>
-                <li class="navLink"><a href="#servicios">Servicios</a></li>
-                <li class="navLink"><a href="#contactame">Contáctame</a></li>
-            </ul>
+    <nav class="navbar navbar-expand-lg nav">
+        <div class="container-fluid">
+            <div class="brand">
+                <img src="./img/ilustraciones/brand.png" alt="brand-logo-small" class="brand">
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navLista">
+                    <li class="navLink"><a href="#sobreMi">Sobre Mi</a></li>
+                    <li class="navLink"><a href="#cartaNatal">Carta Natal</a></li>
+                    <li class="navLink"><a href="#coaching">Coaching Astrológico</a></li>
+                    <li class="navLink"><a href="#servicios">Servicios</a></li>
+                    <li class="navLink"><a href="#contactame">Contáctame</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
+
     <!-- SECCIONES -->
     <!-- INICIO -->
-    <div class="index">
-        <img class="brand-lg" src="./img/ilustraciones/logo-lg.png" alt="brand-logo">
-        <h1 class="titulo">INFINITA SERENDIPIA</h1>
-        <h4 class="subTitulo">Bucea tus aguas, encunetra tu tesoro, tu oro interno. Diseña y nutre una vida alineada al
-            propósito de tu alma.</h4>
+    <div class="index container-fluid mx-0">
+        <div class="row">
+            <div class="col text-center">
+                <img class="brand-lg" src="./img/ilustraciones/logo-lg.png" alt="brand-logo">
+                <h1 class="titulo">INFINITA SERENDIPIA</h1>
+                <h4 class="subTitulo">Bucea tus aguas, encunetra tu tesoro, tu oro interno. Diseña y nutre una vida
+                    alineada al
+                    propósito de tu alma.</h4>
+            </div>
+        </div>
     </div>
     <!-- SOBRE MI -->
-    <div class="sobreMi">
-        <h2 class="tituloSobreMi" id="sobreMi">Hola! Soy Óol.</h2>
-        <div class="contenidoSobreMi">
-            <img src="./img/ilustraciones/estrellas.png" class="estrellas" alt="stars-decoration">
-            <img src="./img/ilustraciones/estrellas.png" class="estrellas2" alt="stars-decoration">
-            <h3 class="subTituloSobreMi">Astróloga, Coach Ontológica, Product Manager y Digital Marketer.</h3>
-            <img src="./img/fotosimg/profile.png" class="profilePhoto" alt="profile-photo">
-            <p>Centrada en vivir una vida llena de propósito que me haga feliz, mi camino fue llevándome a explorar los
-                mundos que me apasionan a medida que iba pudiendo. Siempre en búsqueda de conocerme más y acercarme cada
-                día más a mi propósito, mi rol en el mundo, eso que me llena y engrandece el alma más que cualquier otra
-                cosa... <br> <br>
+    <div class="sobreMi container-fluid text-center mx-0">
+        <div class="row">
+            <div class="col">
+                <h2 class="tituloSobreMi" id="sobreMi">Hola! Soy Óol.</h2>
+                <div class="contenidoSobreMi">
+                    <img src="./img/ilustraciones/estrellas.png" class="estrellas" alt="stars-decoration">
+                    <img src="./img/ilustraciones/estrellas.png" class="estrellas2" alt="stars-decoration">
+                    <h3 class="subTituloSobreMi">Astróloga, Coach Ontológica, Product Manager y Digital Marketer.</h3>
+                    <img src="./img/fotosimg/profile.png" class="profilePhoto" alt="profile-photo">
+                    <p>Centrada en vivir una vida llena de propósito que me haga feliz, mi camino fue llevándome a
+                        explorar los
+                        mundos que me apasionan a medida que iba pudiendo. Siempre en búsqueda de conocerme más y
+                        acercarme cada
+                        día más a mi propósito, mi rol en el mundo, eso que me llena y engrandece el alma más que
+                        cualquier otra
+                        cosa... <br> <br>
 
-                Así fue que después de preguntarme ¿cómo voy a unir todos mis estudios?, me di cuenta de que eran
-                herramientas para cumplir mi propósito. Es energético, y a su vez, todas esas herramientas ya estaban
-                unidas a mí. Todas soy yo. Todas en distintas formas. <br> <br>
+                        Así fue que después de preguntarme ¿cómo voy a unir todos mis estudios?, me di cuenta de que
+                        eran
+                        herramientas para cumplir mi propósito. Es energético, y a su vez, todas esas herramientas ya
+                        estaban
+                        unidas a mí. Todas soy yo. Todas en distintas formas. <br> <br>
 
-                Por eso, hoy ofrezco estos servicios para conocerse y expresarse. Simplemente, brindar eso que a mí me
-                hace más feliz: la introspección espiritual y el poderde compartir la creatividad y brillo personal con
-                consciencia colectiva y mucho amor universal.</p>
+                        Por eso, hoy ofrezco estos servicios para conocerse y expresarse. Simplemente, brindar eso que a
+                        mí me
+                        hace más feliz: la introspección espiritual y el poderde compartir la creatividad y brillo
+                        personal con
+                        consciencia colectiva y mucho amor universal.</p>
+                </div>
+            </div>
         </div>
     </div>
     <!-- CARTA NATAL -->
-    <div class="cartaNatal" id="cartaNatal">
-        <h2 class="tituloCartaNatal">CARTA NATAL</h2>
-        <div class="contenidoCartaNatal">
-            <img src="./img/ilustraciones/indian-house.png" class="indian-house" alt="grafic img">
-            <img src="./img/ilustraciones/estrellas.png" class="estrellas3" alt="grafic img">
-            <h3 class="subTituloCartaNatal">¿Qué es la carta natal?</h3>
-            <p> La carta natal es una foto de cómo estaba el cielo en el instante de tu nacimiento y -de acuerdo con el
-                lugar y el horario- se despliega un código energético determinado. Se puede ver como una ruta, una
-                impronta, después cada una decidirá qué camino tomar, a qué velocidad o dónde hacer una parada</p>
-            <button class="botonCartaNatal"><a href="#">CONSULTAR</a></button>
+    <div class="cartaNatal container-fluid" id="cartaNatal">
+        <div class="row">
+            <div class="col">
+                <h2 class="tituloCartaNatal">CARTA NATAL</h2>
+                <div class="contenidoCartaNatal">
+                    <img src="./img/ilustraciones/indian-house.png" class="indian-house" alt="grafic img">
+                    <img src="./img/ilustraciones/estrellas.png" class="estrellas3" alt="grafic img">
+                    <h3 class="subTituloCartaNatal">¿Qué es la carta natal?</h3>
+                    <p class=""> La carta natal es una foto de cómo estaba el cielo en el instante de tu nacimiento y
+                        -de acuerdo
+                        con el
+                        lugar y el horario- se despliega un código energético determinado. Se puede ver como una ruta,
+                        una
+                        impronta, después cada una decidirá qué camino tomar, a qué velocidad o dónde hacer una parada
+                    </p>
+                    <button class="botonCartaNatal"><a href="#">CONSULTAR</a></button>
+                </div>
+            </div>
         </div>
     </div>
     <!-- COACHING -->
-    <div class="coaching" id="coaching">
+    <div class="coaching container-fluid" id="coaching">
         <h2 class="tituloCoaching">Coaching Astrológico</h2>
         <div class="contenidoCoaching">
             <img src="./img/ilustraciones/estrellas.png" class="estrellas4" alt="grafic img">
@@ -90,7 +124,7 @@
         </div>
     </div>
     <!-- SERVICIOS (OTROS) -->
-    <div class="otros" id="servicios">
+    <div class="otros container-fluid" id="servicios">
         <h2 class="tituloOtros">SERVICIOS</h2>
         <div class="contenidoOtros">
             <img src="./img/ilustraciones/estrellas.png" class="estrellas5" alt="grafic img">
@@ -114,7 +148,7 @@
         </div>
     </div>
     <!-- CONTACTAME -->
-    <div class="contactame" id="contactame">
+    <div class="contactame container-fluid" id="contactame">
         <h2 class="tituloContactame">CONTÁCTAME</h2>
         <div class="cajaEmail">
             <img src="./img/ilustraciones/mail-send.png" alt="mail send icon">
@@ -129,7 +163,7 @@
                 <a href="#"><img src="./img/ilustraciones/inst.png" class="inst" alt="rrss-icon"></a>
             </div>
         </div>
-        <h3 class="consultanos">Comentanos tu consulta.</h3>
+        <h3 class="consultanos">Comentanos tu consulta.</h3> 
         <!-- FORM -->
         <div class="form">
             <form action="mailto:">
@@ -144,6 +178,9 @@
         </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
