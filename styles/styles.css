@@ -781,20 +781,25 @@ form input {
     margin: 0;
   }
   .navbar-toggler-icon {
-    margin-top: 5.2rem;
-    margin-left: 7.5rem;
-    width: 0;
-    height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-top: 50px solid #e7d4b6;
+    background-image: url("../img/ilustraciones/menu-mobile.png") !important;
+    position: absolute;
+    width: 507px;
+    height: 131px;
+    left: 178px;
+    top: 89px;
+    transform: scale(4.5);
     z-index: 0;
   }
   button.navbar-toggler:focus {
     outline: none;
-    z-index: 0;
+    z-index: 3;
     box-shadow: none;
-    color:transparent;
+    color: transparent;
+    opacity: 0;
+  }
+  .navbar-toggler-icon2 {
+    margin-top: 22.51rem;
+    margin-left: -2.8rem;
   }
 
   /* INDEX */
@@ -811,7 +816,7 @@ form input {
     position: sticky;
     z-index: 1;
     width: auto;
-    height: 92px;
+    height: 82px;
     left: 0px;
     top: 0px;
     background: #e7d4b6;
@@ -824,26 +829,33 @@ form input {
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
-    line-height: 27px;
+    line-height: 65px;
     margin: 0 15px;
     color: #000000;
     text-decoration: none;
   }
   .navLista {
-    position: relative;
-    width: auto;
-    height: 17px;
-    left: 5%;
+    position: absolute;
+    z-index: 1;
+    width: 280px;
+    height: auto;
     display: flex;
     list-style-type: none;
+    background-color: #e7d4b6;
     flex-direction: column;
+    text-align: center;
+    padding: 0;
+    padding-top: 44px;
+    top: 5.4rem;
+    left: 55px;
+    border-radius: 0px 0px 45px 45px;
   }
   .brand {
     position: absolute;
-    width: 106px;
-    height: 82px;
-    left: 71px;
-    top: 0px;
+    width: 75px;
+    height: 76px;
+    left: 78px;
+    top: 2px;
   }
   .brand-lg {
     position: absolute;
@@ -1219,7 +1231,7 @@ form input {
     width: 117px;
     height: 32px;
     left: 137px;
-    top: 12px;
+    top: 42px;
 
     font-family: "Cinzel";
     font-style: normal;
@@ -1394,7 +1406,6 @@ form input {
     position: relative;
     height: auto;
     width: 390px;
-
     background: #ffffff;
     border: 1px solid #000000;
     box-sizing: border-box;
