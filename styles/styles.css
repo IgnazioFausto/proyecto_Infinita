@@ -9,12 +9,12 @@ body {
   margin: 0;
   padding: 0;
   height: 1080px;
+  scroll-behavior: smooth;
 }
 .container-fluid {
   padding: 0;
   margin: 0;
 }
-
 /* INDEX */
 .index {
   height: 100%;
@@ -77,7 +77,6 @@ body {
   text-align: center;
   top: 696px;
   margin: 72px 0;
-
   font-family: Cinzel;
   font-style: normal;
   font-weight: normal;
@@ -89,7 +88,6 @@ body {
   position: absolute;
   width: 99%;
   height: 38px;
-
   top: 864px;
   font-family: Lora;
   font-style: italic;
@@ -784,9 +782,9 @@ form input {
     background-image: url("../img/ilustraciones/menu-mobile.png") !important;
     position: absolute;
     width: 507px;
-    height: 131px;
-    left: 178px;
-    top: 89px;
+    height: 0.5rem !important;
+    left: 43.8%;
+    top: 100px;
     transform: scale(4.5);
     z-index: 0;
   }
@@ -798,10 +796,11 @@ form input {
     opacity: 0;
   }
   .navbar-toggler-icon2 {
-    margin-top: 22.51rem;
-    margin-left: -2.8rem;
-  }
+    margin-top: 22.5rem;
+    margin-left: 0.5rem;
+    box-shadow:0px 52px 0px 50px rgba(150, 148, 148, 0.1);
 
+  }
   /* INDEX */
   .index {
     height: 100%;
@@ -810,7 +809,7 @@ form input {
     position: relative;
     background: white;
     border: 1px solid #000000;
-    box-sizing: border-box;
+    border-top: 0;
   }
   .nav {
     position: sticky;
@@ -820,6 +819,7 @@ form input {
     left: 0px;
     top: 0px;
     background: #e7d4b6;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 15px;
   }
   .navLink a {
     position: relative;
@@ -849,12 +849,13 @@ form input {
     top: 5.4rem;
     left: 55px;
     border-radius: 0px 0px 45px 45px;
+    box-shadow:0px 50px 0px 50px rgba(255, 255, 255, 0.5);
   }
   .brand {
     position: absolute;
     width: 75px;
     height: 76px;
-    left: 78px;
+    left: 32%;
     top: 2px;
   }
   .brand-lg {
@@ -952,6 +953,7 @@ form input {
     height: 162px;
     left: 4%;
     top: 133px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   }
   .contenidoSobreMi p {
     position: absolute;
@@ -1084,6 +1086,7 @@ form input {
     height: 39px;
     left: 125px;
     top: 176px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .botonCartaNatal a {
     position: absolute;
@@ -1109,6 +1112,7 @@ form input {
     height: 39px;
     left: 125px;
     top: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .botonCoaching a {
     position: absolute;
@@ -1245,11 +1249,6 @@ form input {
   }
   .estrellas5 {
     display: none;
-    position: absolute;
-    width: 98px;
-    height: 136px;
-    left: 107px;
-    top: 20px;
   }
   .contenidoOtros {
     position: absolute;
@@ -1271,6 +1270,7 @@ form input {
     height: 166px;
     left: 21px;
     top: 56px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .btnTarjeta1 {
     position: absolute;
@@ -1278,6 +1278,7 @@ form input {
     height: 39px;
     left: 125px;
     top: 234px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .btnTarjeta1 a {
     position: absolute;
@@ -1334,6 +1335,7 @@ form input {
     height: 135px;
     left: 21px;
     top: 323px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .btnTarjeta2 {
     position: absolute;
@@ -1341,6 +1343,7 @@ form input {
     height: 39px;
     left: 125px;
     top: 471px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .btnTarjeta2 a {
     position: absolute;
@@ -1434,6 +1437,7 @@ form input {
     left: 21px;
     top: 56px;
     border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .cajaRRSS {
     position: absolute;
@@ -1443,6 +1447,7 @@ form input {
     top: 165px;
     text-align: center;
     border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .cajaRRSS img {
     position: relative;
@@ -1596,7 +1601,7 @@ form input {
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
-    left: 3rem;
+    left: 2.8rem;
     top: 12.5rem;
     z-index: 2;
     padding: 0.3rem;
@@ -1613,6 +1618,7 @@ form input {
     height: 39px;
     left: 148px;
     top: 510px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .btnForm a {
     position: absolute;
