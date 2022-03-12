@@ -783,7 +783,7 @@ form input {
     position: absolute;
     width: 507px;
     height: 0.5rem !important;
-    left: 43.8%;
+    left: 44%;
     top: 100px;
     transform: scale(4.5);
     z-index: 0;
@@ -798,8 +798,7 @@ form input {
   .navbar-toggler-icon2 {
     margin-top: 22.5rem;
     margin-left: 0.5rem;
-    box-shadow:0px 52px 0px 50px rgba(150, 148, 148, 0.1);
-
+    box-shadow: 0px 52px 0px 50px rgba(150, 148, 148, 0.1);
   }
   /* INDEX */
   .index {
@@ -835,9 +834,9 @@ form input {
     text-decoration: none;
   }
   .navLista {
-    position: absolute;
+    position: relative;
     z-index: 1;
-    width: 280px;
+    width: 70%;
     height: auto;
     display: flex;
     list-style-type: none;
@@ -846,10 +845,10 @@ form input {
     text-align: center;
     padding: 0;
     padding-top: 44px;
-    top: 5.4rem;
-    left: 55px;
+    top: 4.1rem;
+    left: 15%;
     border-radius: 0px 0px 45px 45px;
-    box-shadow:0px 50px 0px 50px rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 50px 0px 50px rgba(255, 255, 255, 0.5);
   }
   .brand {
     position: absolute;
@@ -859,34 +858,34 @@ form input {
     top: 2px;
   }
   .brand-lg {
-    position: absolute;
-    width: 349px;
+    position: relative;
+    width: 90%;
     height: 233px;
     left: 0px;
     top: 90px;
     margin: 0 5%;
   }
   .titulo {
-    position: absolute;
-    width: 349px;
+    position: relative;
+    width: 100%;
     height: 44px;
-    left: 21px;
-    top: 323px;
+    top: 103px;
     font-family: "Cinzel";
     font-style: normal;
     font-weight: 400;
     font-size: 33px;
     line-height: 44px;
-    margin: 0;
+    margin: 0 auto;
     color: #778690;
   }
   .subTitulo {
-    position: absolute;
-    width: 347px;
+    position: relative;
+    width: 90%;
     height: 78px;
-    left: 22px;
-    top: 438px;
-    margin: 0;
+    top: 158px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
     font-family: "Lora";
     font-style: italic;
     font-weight: 400;
@@ -910,7 +909,7 @@ form input {
   }
   .tituloSobreMi {
     position: relative;
-    width: 184px;
+    width: 100%;
     height: 32px;
 
     font-family: "Cinzel";
@@ -920,15 +919,15 @@ form input {
     line-height: 32px;
 
     /* 2 */
-    left: 103px;
+    left: 1%;
     top: 22;
     color: #606e77;
   }
   .subTituloSobreMi {
     position: relative;
-    width: 355px;
+    width: 100%;
     height: 81px;
-    left: 18px;
+    left: 1%;
     top: -120px;
     font-family: "Cinzel";
     font-style: normal;
@@ -936,11 +935,11 @@ form input {
     font-size: 20px;
     line-height: 27px;
     text-align: center;
-
+    padding: 0 5%;
     color: #606e77;
   }
   .contenidoSobreMi {
-    position: absolute;
+    position: relative;
     width: auto;
     height: 89%;
     left: 0px;
@@ -951,23 +950,24 @@ form input {
     position: absolute;
     width: 100%;
     height: 162px;
-    left: 4%;
-    top: 133px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    left: 1%;
+    top: 0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   }
   .contenidoSobreMi p {
     position: absolute;
-    width: 348px;
+    width: 100%;
     height: 366px;
-    left: 23px;
-    top: 324px;
+    left: 0%;
+    top: 200px;
 
     font-family: "Lora";
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    text-align: center;
+    text-align: justify;
 
     /* 2 */
 
@@ -996,8 +996,9 @@ form input {
   }
   /* carta natal */
   .cartaNatal {
+    position: relative;
     height: 50%;
-    width: 390px;
+    width: 100%;
     background: #e4cdbb;
     border: 1px solid #000000;
 
@@ -1005,10 +1006,10 @@ form input {
     border-radius: 0px;
   }
   .tituloCartaNatal {
-    position: absolute;
-    width: 166px;
+    position: relative;
+    width: 100%;
     height: 32px;
-    left: 117px;
+    left: 0%;
     top: 14px;
 
     font-family: "Cinzel";
@@ -1025,15 +1026,15 @@ form input {
     position: absolute;
     width: 100%;
     height: 252px;
-    left: 0px;
+    left: 0%;
     top: 142px;
     background: #e4cdbb;
   }
   .subTituloCartaNatal {
-    position: absolute;
-    width: 252px;
+    position: relative;
+    width: 100%;
     height: 27px;
-    left: 69px;
+    left: 0%;
     top: -80px;
     font-family: "Cinzel";
     font-style: normal;
@@ -1042,35 +1043,32 @@ form input {
     line-height: 27px;
     /* identical to box height */
 
-    text-align: justify;
+    text-align: center;
 
     /* 2 */
 
     color: #606e77;
   }
   .contenidoCartaNatal p {
-    position: absolute;
-    width: 348px;
+    position: relative;
+    width: 100%;
     height: 108px;
-    left: 21px;
+    left: 0%;
     top: -35px;
-
+    padding: 0 5%;
     font-family: "Lora";
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
     text-align: justify;
-
-    /* 2 */
-
     color: #606e77;
   }
   .indian-house {
     position: absolute;
     width: 79px;
     height: 79px;
-    left: 0px;
+    left: 2%;
     top: 136px;
   }
   .estrellas3 {
@@ -1082,44 +1080,34 @@ form input {
   }
   .botonCartaNatal {
     position: absolute;
-    width: 141px;
+    width: 30%;
     height: 39px;
-    left: 125px;
+    left: 33%;
+    text-align: center;
     top: 176px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .botonCartaNatal a {
-    position: absolute;
-    left: 19.27%;
-    right: 16.19%;
-    top: 19%;
-    bottom: 24.39%;
-
+    position: relative;
     font-family: "Cinzel";
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
-    /* identical to box height */
-
-    text-align: justify;
-
+    text-align: center;
     color: #ffffff;
   }
   .botonCoaching {
     position: absolute;
-    width: 141px;
+    width: 30%;
     height: 39px;
-    left: 125px;
+    left: 33%;
     top: 200px;
+    text-align: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .botonCoaching a {
-    position: absolute;
-    left: 19.27%;
-    right: 16.19%;
-    top: 17%;
-    bottom: 24.39%;
+    position: relative;
 
     font-family: "Cinzel";
     font-style: normal;
@@ -1128,14 +1116,14 @@ form input {
     line-height: 19px;
     /* identical to box height */
 
-    text-align: justify;
+    text-align: center;
 
     color: #ffffff;
   }
   .coaching {
     position: relative;
     height: 50%;
-    width: 390px;
+    width: 100%;
 
     background: #b1b9c6;
 
@@ -1151,27 +1139,26 @@ form input {
     background: #b1b9c6;
   }
   .tituloCoaching {
-    position: absolute;
-    width: 305px;
+    position: relative;
+    width: 100%;
     height: 32px;
-    left: 43px;
+    left: 0%;
     top: 25px;
-
+    text-align: center;
     font-family: "Cinzel";
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 32px;
-
-    /* 2 */
     color: #606e77;
+    bottom: 1%;
   }
   .subTituloCoaching {
-    position: absolute;
-    width: 376px;
+    position: relative;
+    width: 100%;
     height: 27px;
-    left: 7px;
-    top: -69px;
+    left: 0%;
+    top: -60px;
 
     font-family: "Cinzel";
     font-style: normal;
@@ -1180,17 +1167,17 @@ form input {
     line-height: 27px;
     /* identical to box height */
 
-    text-align: justify;
+    text-align: center;
 
     /* verde */
 
     color: #ebede6;
   }
   .contenidoCoaching p {
-    position: absolute;
-    width: 348px;
+    position: relative;
+    width: 90%;
     height: 144px;
-    left: 21px;
+    left: 5%;
     top: -19px;
 
     font-family: "Lora";
@@ -1224,68 +1211,61 @@ form input {
   .otros {
     position: relative;
     height: 100%;
-    width: 390px;
+    width: 100%;
 
     background: #ffffff;
     border: 1px solid #000000;
     box-sizing: border-box;
   }
   .tituloOtros {
-    position: absolute;
-    width: 117px;
+    position: relative;
+    width: 100%;
     height: 32px;
-    left: 137px;
+    left: 0%;
     top: 42px;
-
+    text-align: center;
     font-family: "Cinzel";
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 32px;
-
-    /* 2 */
-
     color: #606e77;
   }
   .estrellas5 {
     display: none;
   }
   .contenidoOtros {
-    position: absolute;
-    width: 390px;
-
+    position: relative;
+    width: 100%;
+    text-align: center;
     height: 839px;
-    left: 0px;
+    left: 0%;
     top: 104px;
     background: #ebede6;
   }
   .tarjetasOtros {
     position: absolute;
-    background-color: yellowgreen;
-    width: 390px;
+    background-color: transparent;
+    width: 100%;
   }
   .tarjeta1 {
-    position: absolute;
-    width: 348px;
+    position: initial;
+    width: 100%;
     height: 166px;
-    left: 21px;
     top: 56px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .btnTarjeta1 {
-    position: absolute;
-    width: 141px;
+    position: relative;
+    width: 35%;
     height: 39px;
-    left: 125px;
-    top: 234px;
+    left: 0%;
+    top: 34px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .btnTarjeta1 a {
-    position: absolute;
-    left: 19.27%;
-    right: 16.19%;
-    top: 17%;
-    bottom: 24.39%;
+    position: initial;
+    text-align: center;
 
     font-family: "Cinzel";
     font-style: normal;
@@ -1294,17 +1274,14 @@ form input {
     line-height: 19px;
     /* identical to box height */
 
-    text-align: justify;
-
     color: #ffffff;
   }
   .tituloTarjeta1 {
-    position: absolute;
-    width: 96px;
+    position: relative;
+    width: 100%;
     height: 23px;
-    left: 126px;
+    left: 0%;
     top: 15px;
-
     font-family: "Lora";
     font-style: normal;
     font-weight: 600;
@@ -1313,44 +1290,37 @@ form input {
     color: #ebede6;
   }
   .tarjeta1 p {
-    position: absolute;
-    width: 292px;
+    position: relative;
+    width: 100%;
     height: 93px;
-    left: 31px;
-    top: 48px;
-
+    left: 2rem;
+    top: 1rem;
+    text-align: left;
     font-family: "Lora";
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12.5px;
     line-height: 39px;
-
-    /* verde */
-
     color: #ebede6;
   }
   .tarjeta2 {
     position: absolute;
-    width: 348px;
+    width: 100%;
     height: 135px;
-    left: 21px;
+    left: 0;
     top: 323px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .btnTarjeta2 {
     position: absolute;
-    width: 141px;
+    width: 35%;
     height: 39px;
-    left: 125px;
-    top: 471px;
+    left: 33%;
+    top: 490px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .btnTarjeta2 a {
-    position: absolute;
-    left: 19.27%;
-    right: 16.19%;
-    top: 17%;
-    bottom: 24.39%;
+    position: initial;
 
     font-family: "Cinzel";
     font-style: normal;
@@ -1359,15 +1329,15 @@ form input {
     line-height: 19px;
     /* identical to box height */
 
-    text-align: justify;
+    text-align: center;
 
     color: #ffffff;
   }
   .tituloTarjeta2 {
-    position: absolute;
-    width: 115px;
+    position: relative;
+    width: 100%;
     height: 23px;
-    left: 117px;
+    left: 0%;
     top: 15px;
     font-family: "Lora";
     font-style: normal;
@@ -1375,20 +1345,23 @@ form input {
     font-size: 18px;
     line-height: 23px;
     color: #ebede6;
+    text-align: center;
   }
   .tarjeta2 p {
     position: absolute;
-    width: 311px;
+    width: 100%;
     height: 59px;
-    left: 31px;
-    top: 48px;
+    left: 2rem;
+    top: 3rem;
     font-family: "Lora";
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12.5px;
     line-height: 36px;
-
+    text-align: left;
     color: #ffffff;
+    overflow: hidden;
+    white-space: nowrap;
   }
   .circulos {
     position: absolute;
@@ -1407,43 +1380,41 @@ form input {
   /* contactame */
   .contactame {
     position: relative;
-    height: auto;
-    width: 390px;
+    height: 100%;
+    width: 100%;
     background: #ffffff;
     border: 1px solid #000000;
+    border-bottom: 0;
     box-sizing: border-box;
   }
   .tituloContactame {
     position: absolute;
-    width: 164px;
+    width: 100%;
     height: 32px;
-    left: 114px;
+    left: 0%;
     top: 13px;
-
+    text-align: center;
     font-family: "Cinzel";
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 32px;
-
-    /* 2 */
-
     color: #606e77;
   }
   .cajaEmail {
     position: absolute;
-    width: 348px;
+    width: 90%;
     height: 97px;
-    left: 21px;
+    left: 5%;
     top: 56px;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .cajaRRSS {
     position: absolute;
-    width: 348px;
+    width: 90%;
     height: 52.9px;
-    left: 21px;
+    left: 5%;
     top: 165px;
     text-align: center;
     border-radius: 20px;
@@ -1458,19 +1429,19 @@ form input {
     margin: 0 1rem;
   }
   .cajaEmail img {
-    position: absolute;
+    position: relative;
     width: 25.31px;
-    height: 24px;
-    left: 161px;
+    height: 20%;
+    left: 45%;
     top: 7px;
   }
   .cajaEmail h6 {
-    position: absolute;
-    width: 55px;
+    position: relative;
+    width: 100%;
     height: 24px;
-    left: 147px;
-    top: 35px;
-
+    left: 0%;
+    top: 10px;
+    text-align: center;
     font-family: "Cinzel";
     font-style: normal;
     font-weight: 700;
@@ -1480,11 +1451,11 @@ form input {
     color: #ffffff;
   }
   .cajaEmail p {
-    width: 257px;
+    width: 100%;
     height: 18px;
-    left: 46px;
+    left: 0;
     top: 60px;
-
+text-align: center;
     font-family: "Lora";
     font-style: normal;
     font-weight: 400;
@@ -1496,9 +1467,9 @@ form input {
   }
   .consultanos {
     position: absolute;
-    width: 214px;
+    width: 100%;
     height: 23px;
-    left: 88px;
+    left: 0;
     top: 254px;
     display: block;
     font-family: "Lora";
@@ -1507,21 +1478,21 @@ form input {
     font-size: 18px;
     line-height: 23px;
     /* identical to box height */
-
+text-align: center;
     /* LETRA */
 
     color: #778690;
   }
   .form {
-    position: absolute;
-    width: 390px;
+    position: relative;
+    width: 100%;
     height: 723px;
     left: 0px;
     top: 271px;
   }
   .inputName {
     position: relative;
-    width: 351px;
+    width: 90%;
     height: 52px;
     left: 18px;
     top: 48px;
@@ -1552,11 +1523,11 @@ form input {
     color: rgba(255, 255, 255, 0.84);
   }
   .inputEmail {
-    position: absolute;
-    width: 351px;
+    position: relative;
+    width: 90%;
     height: 52px;
     left: 18px;
-    top: 127px;
+    top: 77px;
 
     border: 1px solid #a98b73;
     box-sizing: border-box;
@@ -1583,11 +1554,11 @@ form input {
     border-radius: 5px;
   }
   .inputText {
-    position: absolute;
-    width: 351px;
+    position: relative;
+    width: 90%;
     height: 270px;
-    left: 19px;
-    top: 212px;
+    left: 18px;
+    top: 112px;
     border: 1px solid #a98b73;
     box-sizing: border-box;
     border-radius: 15px;
@@ -1613,19 +1584,16 @@ form input {
     border-radius: 5px;
   }
   .btnForm {
-    position: absolute;
-    width: 94px;
+    position: relative;
+    width: 27%;
     height: 39px;
-    left: 148px;
-    top: 510px;
+    left: 35%;
+    top: 150px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .btnForm a {
-    position: absolute;
-    left: 19.27%;
-    right: 20.09%;
-    top: 26.9%;
-    bottom: 24.39%;
+    position: relative;
+  
 
     font-family: "Cinzel";
     font-style: normal;
@@ -1634,7 +1602,7 @@ form input {
     line-height: 19px;
     /* identical to box height */
 
-    text-align: justify;
+    text-align: center;
 
     color: #ffffff;
   }
