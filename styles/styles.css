@@ -867,6 +867,24 @@
     border: 1px solid #000000;
     box-sizing: border-box;
   }
+  .navLink a:hover {
+    color: #606E77;
+  }
+  .btnForm a:hover {
+    color: white;
+  }
+  .botonCoaching:hover, .botonCartaNatal:hover, .btnTarjeta1:hover, .btnTarjeta2:hover, .btnForm:hover {
+    background: #778690;
+    /* 2 */
+    
+    border: 5px solid #606E77;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 500px;
+  }
+  .botonCoaching a:hover, .botonCartaNatal a:hover, .btnTarjeta1 a:hover, .btnTarjeta2 a:hover, .btnForm a:hover {
+    color: white;
+  }
   .tituloOtros {
     position: relative;
     width: 100%;
