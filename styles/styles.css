@@ -8,6 +8,9 @@
     padding: 0;
     margin: 0;
   }
+  .navLink a:hover {
+    color: #606E77;
+  }
   html {
     width: 100%;
     margin: 0;
@@ -30,6 +33,7 @@
     padding: 0;
     margin: 0;
   }
+
   /* INDEX */
   .index {
     height: 100%;
@@ -306,6 +310,18 @@
     align-self: center;
     text-decoration: none;
     color: #ffffff;
+  }
+  .botonCoaching:hover, .botonCartaNatal:hover, .btnTarjeta1:hover, .btnTarjeta2:hover, .btnForm:hover {
+    background: #778690;
+    /* 2 */
+    
+    border: 5px solid #606E77;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 500px;
+  }
+  .botonCoaching a:hover, .botonCartaNatal a:hover, .btnTarjeta1 a:hover, .btnTarjeta2 a:hover, .btnForm a:hover {
+    color: white;
   }
   .coaching {
     position: relative;
@@ -607,7 +623,7 @@
   .contactame {
     position: relative;
     height: 100%;
-    min-height: 1240px;
+    min-height: 1440px;
     width: 100%;
     background: #ffffff;
     border: 1px solid #000000;
@@ -801,7 +817,7 @@
     width: 288px;
     height: 80px;
     top: 51px;
-    background: #778690;
+    background: #606e77;
     border: 2px solid #606e77;
     box-sizing: border-box;
     border-radius: 100px;
@@ -2208,6 +2224,9 @@
   .navLink a {
     font-size: 13px;
     margin: 0px 10px;
+  }
+  .navLink a:hover {
+    color: #606E77;
   }
   .navLista {
     right: 2%;
