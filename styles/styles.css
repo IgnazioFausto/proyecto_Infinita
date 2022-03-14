@@ -3,7 +3,6 @@
   padding: 0;
   margin: 0;
 }
-
 @media screen and (min-width: 768px) {
   * {
     padding: 0;
@@ -176,10 +175,8 @@
     position: relative;
     width: 90%;
     max-width: 1200px;
-
     height: 355px;
     margin: 0 auto;
-
     top: 0px;
     font-family: Lora;
     font-style: normal;
@@ -257,7 +254,6 @@
     height: 158px;
     max-width: 1200px;
     margin: 0 auto;
-
     top: 123px;
     font-family: "Lora";
     font-style: normal;
@@ -536,7 +532,6 @@
     background: #606e77;
     border-radius: 15px;
     min-width: 496px;
-
   }
   .btnTarjeta2 {
     display: flex;
@@ -845,15 +840,13 @@
     padding: 0.3rem;
   }
 }
-
-/* mobile */
+/* mobile & tablet*/
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .otros {
     position: relative;
     height: 100%;
     width: 100%;
-
     background: #ffffff;
     border: 1px solid #000000;
     box-sizing: border-box;
@@ -922,8 +915,6 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
-    /* identical to box height */
-
     color: #ffffff;
   }
   .tituloTarjeta1 {
@@ -981,16 +972,13 @@
   }
   .btnTarjeta2 a {
     position: initial;
-
     font-family: "Cinzel";
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
-    /* identical to box height */
     text-decoration: none;
     text-align: center;
-
     color: #ffffff;
   }
   .tituloTarjeta2 {
@@ -1116,7 +1104,6 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
-
     color: #ffffff;
   }
   .cajaEmail p {
@@ -1130,8 +1117,6 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    /* identical to box height */
-
     color: rgba(255, 255, 255, 0.78);
   }
   .consultanos {
@@ -1146,10 +1131,7 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 23px;
-    /* identical to box height */
     text-align: center;
-    /* LETRA */
-
     color: #778690;
   }
   .form {
@@ -1204,7 +1186,6 @@
     left: 0%;
     margin: 0 auto;
     top: 77px;
-
     border: 1px solid #a98b73;
     box-sizing: border-box;
     border-radius: 15px;
@@ -1220,9 +1201,7 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 18px;
-    /* identical to box height */
     padding: 0.2rem 1rem;
-
     z-index: 2;
     padding: 0.3rem;
     text-align: center;
@@ -1285,10 +1264,7 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
-    /* identical to box height */
-
     text-align: center;
-
     color: #ffffff;
   }
   form input::placeholder {
@@ -1455,9 +1431,6 @@
     font-size: 20px;
     line-height: 26px;
     text-align: center;
-
-    /* gris */
-
     color: #b1b9c6;
   }
   /* sobre mi  */
@@ -1466,7 +1439,6 @@
     width: 100vh;
     height: 100%;
     background: #e7d4b6;
-
     border: 1px solid #000000;
     box-sizing: border-box;
   }
@@ -1474,14 +1446,11 @@
     position: relative;
     width: 100%;
     height: 32px;
-
     font-family: "Cinzel";
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 32px;
-
-    /* 2 */
     left: 1%;
     top: 33px;
     color: #606e77;
@@ -1524,7 +1493,6 @@
     height: 366px;
     left: 0%;
     top: -80px;
-
     font-family: "Lora";
     font-style: normal;
     font-weight: 400;
@@ -1532,8 +1500,6 @@
     line-height: 18px;
     text-align: justify;
     margin: 0 auto;
-    /* 2 */
-
     color: #606e77;
   }
   .estrellas {
@@ -1541,7 +1507,6 @@
     width: 25.1px;
     height: 34px;
     left: 355px;
-
     transform: matrix(1.5, 0, 0, -1, 0, -1);
     z-index: 0;
     height: 136px;
@@ -1554,7 +1519,6 @@
     height: 39px;
     left: 12px;
     top: 685px;
-
     transform: matrix(1, 0, 0, -1, 0, 0);
   }
   /* carta natal */
@@ -1564,7 +1528,6 @@
     width: 100%;
     background: #e4cdbb;
     border: 1px solid #000000;
-
     position: relative;
     border-radius: 0px;
   }
@@ -1580,9 +1543,6 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 32px;
-
-    /* 2 */
-
     color: #606e77;
   }
   .contenidoCartaNatal {
@@ -1604,12 +1564,7 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 27px;
-    /* identical to box height */
-
     text-align: center;
-
-    /* 2 */
-
     color: #606e77;
   }
   .contenidoCartaNatal p {
@@ -1689,13 +1644,11 @@
   }
   .botonCoaching a {
     position: relative;
-
     font-family: "Cinzel";
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
-    /* identical to box height */
     margin: auto;
     text-align: center;
     text-decoration: none;
@@ -1705,9 +1658,7 @@
     position: relative;
     height: 50%;
     width: 100%;
-
     background: #b1b9c6;
-
     border: 1px solid #000000;
     box-sizing: border-box;
   }
@@ -1740,18 +1691,12 @@
     height: 27px;
     left: 0%;
     top: -60px;
-
     font-family: "Cinzel";
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 27px;
-    /* identical to box height */
-
     text-align: center;
-
-    /* verde */
-
     color: #ebede6;
   }
   .contenidoCoaching p {
@@ -1760,16 +1705,12 @@
     height: 144px;
     left: 5%;
     top: -19px;
-
     font-family: "Lora";
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
     text-align: justify;
-
-    /* verde */
-
     color: #ebede6;
   }
   .estrellas4 {
@@ -1778,7 +1719,6 @@
     height: 24.98px;
     left: 64px;
     top: -327.98px;
-
     transform: matrix(1, 0, 0, -1, 0, 0);
   }
   .faro {
@@ -1862,8 +1802,6 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
-    /* identical to box height */
-
     color: #ffffff;
   }
   .tituloTarjeta1 {
@@ -1921,13 +1859,11 @@
   }
   .btnTarjeta2 a {
     position: initial;
-
     font-family: "Cinzel";
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
-    /* identical to box height */
     text-decoration: none;
     text-align: center;
 
@@ -2056,7 +1992,6 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
-
     color: #ffffff;
   }
   .cajaEmail p {
@@ -2070,8 +2005,6 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    /* identical to box height */
-
     color: rgba(255, 255, 255, 0.78);
   }
   .consultanos {
@@ -2086,10 +2019,7 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 23px;
-    /* identical to box height */
     text-align: center;
-    /* LETRA */
-
     color: #778690;
   }
   .form {
@@ -2142,10 +2072,8 @@
     width: 90%;
     height: 52px;
     left: 5%;
-
     margin: 0 auto;
     top: 77px;
-
     border: 1px solid #a98b73;
     box-sizing: border-box;
     border-radius: 15px;
@@ -2161,9 +2089,7 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 18px;
-    /* identical to box height */
     padding: 0.2rem 1rem;
-
     z-index: 2;
     padding: 0.3rem;
     text-align: center;
@@ -2178,7 +2104,6 @@
     width: 90%;
     height: 270px;
     left: 5%;
-
     margin: 0 auto;
     top: 112px;
     border: 1px solid #a98b73;
@@ -2230,10 +2155,8 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
-    /* identical to box height */
     margin: auto;
     text-align: center;
-
     color: #ffffff;
   }
   form input::placeholder {
@@ -2260,7 +2183,6 @@
     padding: 0.3rem;
   }
 }
-
 @media screen and (min-width: 410px) {
   .navbar-toggler-icon2 {
     margin-top: 15.7rem;
@@ -2277,7 +2199,6 @@
   }
   body {
     width: 100%;
-
     overflow-x: hidden;
     margin: 0;
     padding: 0;
@@ -2294,7 +2215,7 @@
   .titulo {
     font-size: 65px;
   }
-  
+
   .tituloSobreMi {
     font-size: 90px;
   }
@@ -2411,8 +2332,6 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
-    /* identical to box height */
-
     color: #ffffff;
   }
   .tituloTarjeta1 {
@@ -2470,16 +2389,13 @@
   }
   .btnTarjeta2 a {
     position: initial;
-
     font-family: "Cinzel";
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
-    /* identical to box height */
     text-decoration: none;
     text-align: center;
-
     color: #ffffff;
   }
   .tituloTarjeta2 {
@@ -2608,7 +2524,6 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
-
     color: #ffffff;
   }
   .cajaEmail p {
@@ -2622,8 +2537,6 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    /* identical to box height */
-
     color: rgba(255, 255, 255, 0.78);
   }
   .consultanos {
@@ -2638,10 +2551,7 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 23px;
-    /* identical to box height */
     text-align: center;
-    /* LETRA */
-
     color: #778690;
   }
   .form {
@@ -2716,9 +2626,7 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 18px;
-    /* identical to box height */
     padding: 0.2rem 1rem;
-
     z-index: 2;
     padding: 0.3rem;
     text-align: center;
@@ -2785,8 +2693,6 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
-    /* identical to box height */
-
     text-align: center;
     margin: auto;
     color: #ffffff;
@@ -2813,5 +2719,31 @@
     letter-spacing: 0em;
     text-align: left;
     padding: 0.3rem;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1225px) {
+  .navLink a {
+    position: relative;
+    width: 100%;
+    height: 27px;
+    font-family: Cinzel Decorative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    margin: 0 10px;
+    color: #000000;
+    text-decoration: none;
+  }
+  .navLista {
+    position: relative;
+    width: 100%;
+    height: 17px;
+    right: 0%;
+    justify-content: end;
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
   }
 }
