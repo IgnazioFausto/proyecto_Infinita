@@ -1,11 +1,21 @@
 /* desktop */
+* {
+  padding: 0;
+  margin: 0;
+}
 
 @media screen and (min-width: 768px) {
   * {
     padding: 0;
     margin: 0;
   }
-  html,
+  html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+  }
   body {
     width: 100%;
     overflow-x: hidden;
@@ -13,6 +23,9 @@
     padding: 0;
     height: 1080px;
     scroll-behavior: smooth;
+  }
+  .overflow-wrapper {
+    height: 100vh;
   }
   .container-fluid {
     padding: 0;
@@ -73,7 +86,7 @@
     position: relative;
     width: 90%;
     max-width: 900px;
-    height: 669px;
+    height: 469px;
     text-align: center;
     margin: 72px 5%;
   }
@@ -82,7 +95,7 @@
     width: 99%;
     height: 128px;
     text-align: center;
-    top: 696px;
+    top: 496px;
     margin: 72px 0;
     font-family: Cinzel;
     font-style: normal;
@@ -95,7 +108,7 @@
     position: absolute;
     width: 90%;
     height: 38px;
-    top: 864px;
+    top: 664px;
     font-family: Lora;
     font-style: italic;
     font-weight: normal;
@@ -197,13 +210,14 @@
     width: 100%;
     position: relative;
     border-radius: 0px;
+    margin-bottom: 164px;
   }
   .tituloCartaNatal {
-    position: absolute;
-    width: 487px;
+    position: relative;
+    width: 100%;
     height: 94px;
-    left: 717px;
-    top: 29px;
+    left: 0;
+    top: 150px;
     font-family: "Cinzel";
     font-style: normal;
     font-weight: 400;
@@ -212,12 +226,16 @@
     color: #e7d4b6;
     text-align: center;
   }
+  .container-fluid {
+    padding: 0 !important;
+  }
   .contenidoCartaNatal {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 852px;
     left: 0px;
     top: 142px;
+    padding: 0;
     background: #e4cdbb;
   }
   .subTituloCartaNatal {
@@ -239,7 +257,7 @@
     height: 158px;
     max-width: 1200px;
     margin: 0 auto;
-    
+
     top: 123px;
     font-family: "Lora";
     font-style: normal;
@@ -359,7 +377,6 @@
     left: 10%;
     top: 22px;
     max-width: 115px;
-
   }
   .faro {
     position: absolute;
@@ -447,6 +464,7 @@
   .tarjeta1 {
     position: relative;
     width: 40%;
+    min-width: 496px;
     height: 331px;
     left: 0%;
     top: 0px;
@@ -457,9 +475,10 @@
     display: flex;
     flex-direction: row;
     position: absolute;
-    width: 368.02px;
+    width: 35%;
+    max-width: 358px;
     height: 101.38px;
-    left: 13%;
+    left: 10%;
     top: 461px;
     background: #606e77;
     border: 5px solid #606e77;
@@ -516,12 +535,15 @@
     top: 0px;
     background: #606e77;
     border-radius: 15px;
+    min-width: 496px;
+
   }
   .btnTarjeta2 {
     display: flex;
     flex-direction: row;
     position: absolute;
-    width: 368.02px;
+    width: 35%;
+    max-width: 358px;
     height: 101.38px;
     left: 64%;
     top: 461px;
@@ -590,6 +612,7 @@
   .contactame {
     position: relative;
     height: 100%;
+    min-height: 1240px;
     width: 100%;
     background: #ffffff;
     border: 1px solid #000000;
@@ -614,7 +637,7 @@
     min-width: 374px;
     width: 30%;
     height: 246px;
-    left: 10%;
+    left: 15%;
     top: 194px;
     background: #e4cdbb;
     border-radius: 20px;
@@ -624,7 +647,7 @@
     min-width: 374px;
     width: 30%;
     height: 147px;
-    left: 10%;
+    left: 15%;
     top: 253px;
     background: #e4cdbb;
     border-radius: 20px;
@@ -686,12 +709,13 @@
     position: absolute;
     width: 627px;
     height: 723px;
-    left: 876px;
+    left: 50%;
     top: 261px;
   }
   .inputName {
     position: relative;
-    width: 627px;
+    width: 80%;
+    max-width: 627px;
     height: 80px;
     border: 2px solid #a98b73;
     box-sizing: border-box;
@@ -719,7 +743,8 @@
   }
   .inputEmail {
     position: relative;
-    width: 627px;
+    width: 80%;
+    max-width: 627px;
     height: 80px;
     top: 9px;
     border: 2px solid #a98b73;
@@ -748,7 +773,8 @@
   }
   .inputText {
     position: relative;
-    width: 627px;
+    width: 80%;
+    max-width: 627px;
     height: 335px;
     top: 18px;
     border: 2px solid #a98b73;
@@ -823,6 +849,471 @@
 /* mobile */
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  .otros {
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+    background: #ffffff;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+  }
+  .tituloOtros {
+    position: relative;
+    width: 100%;
+    height: 32px;
+    left: 0%;
+    top: 42px;
+    text-align: center;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #606e77;
+  }
+  .estrellas5 {
+    display: none;
+  }
+  .contenidoOtros {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    height: 839px;
+    left: 0%;
+    top: 104px;
+    background: #ebede6;
+  }
+  .tarjetasOtros {
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+  }
+  .tarjeta1 {
+    position: relative;
+    width: 100%;
+    height: 166px;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #606e77;
+    border-radius: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .btnTarjeta1 {
+    position: relative;
+    width: 35%;
+    height: 39px;
+    left: 0%;
+    top: 34px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 5px solid #606e77;
+    box-sizing: border-box;
+    border-radius: 500px;
+    background: #606e77;
+    max-width: 130px;
+  }
+  .btnTarjeta1 a {
+    position: initial;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+  .tituloTarjeta1 {
+    position: relative;
+    width: 100%;
+    height: 23px;
+    left: 0%;
+    top: 15px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ebede6;
+  }
+  .tarjeta1 p {
+    position: relative;
+    width: 100%;
+    height: 93px;
+    left: 2rem;
+    top: 1rem;
+    text-align: left;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.5px;
+    line-height: 39px;
+    color: #ebede6;
+  }
+  .tarjeta2 {
+    position: relative;
+    width: 100%;
+    height: 135px;
+    left: 0;
+    top: 120px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #606e77;
+    border-radius: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .btnTarjeta2 {
+    position: relative;
+    width: 35%;
+    height: 39px;
+    left: 0%;
+    margin: 0 auto;
+    top: 160px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #606e77;
+    border: 5px solid #606e77;
+    box-sizing: border-box;
+    border-radius: 500px;
+    max-width: 130px;
+  }
+  .btnTarjeta2 a {
+    position: initial;
+
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    text-decoration: none;
+    text-align: center;
+
+    color: #ffffff;
+  }
+  .tituloTarjeta2 {
+    position: relative;
+    width: 100%;
+    height: 23px;
+    left: 0%;
+    top: 15px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ebede6;
+    text-align: center;
+  }
+  .tarjeta2 p {
+    position: absolute;
+    width: 100%;
+    height: 59px;
+    left: 2rem;
+    top: 3rem;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.5px;
+    line-height: 36px;
+    text-align: left;
+    color: #ffffff;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .circulos {
+    position: absolute;
+    width: 13px;
+    height: 90px;
+    left: 12px;
+    top: 61px;
+  }
+  .circulos2 {
+    position: absolute;
+    width: 13px;
+    height: 51px;
+    left: 12px;
+    top: 59px;
+  }
+  /* contactame */
+  .contactame {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-bottom: 0;
+    box-sizing: border-box;
+  }
+  .tituloContactame {
+    position: absolute;
+    width: 100%;
+    height: 32px;
+    left: 0%;
+    top: 13px;
+    text-align: center;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #606e77;
+  }
+  .cajaEmail {
+    position: absolute;
+    width: 100%;
+    height: 97px;
+    left: 15%;
+    top: 56px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #e4cdbb;
+    border-radius: 20px;
+  }
+  .cajaRRSS {
+    position: absolute;
+    width: 90%;
+    height: 52.9px;
+    left: 5%;
+    top: 165px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #e4cdbb;
+    border-radius: 20px;
+  }
+  .cajaRRSS img {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 10px;
+    margin: 0 1rem;
+  }
+  .cajaEmail img {
+    position: relative;
+    width: 25.31px;
+    height: 20%;
+    left: 0%;
+    top: 7px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+  }
+  .cajaEmail h6 {
+    position: relative;
+    width: 100%;
+    height: 24px;
+    left: 0%;
+    top: 10px;
+    text-align: center;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #ffffff;
+  }
+  .cajaEmail p {
+    width: 100%;
+    height: 18px;
+    left: 0;
+    top: 0px;
+    text-align: center;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+    color: rgba(255, 255, 255, 0.78);
+  }
+  .consultanos {
+    position: absolute;
+    width: 100%;
+    height: 23px;
+    left: 0;
+    top: 254px;
+    display: block;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    text-align: center;
+    /* LETRA */
+
+    color: #778690;
+  }
+  .form {
+    position: relative;
+    width: 100%;
+    height: 723px;
+    left: 0px;
+    top: 271px;
+  }
+  .inputName {
+    position: relative;
+    width: 90%;
+    height: 52px;
+    left: 0%;
+    margin: 0 auto;
+    top: 48px;
+    border: 1px solid #a98b73;
+    box-sizing: border-box;
+    border-radius: 15px;
+  }
+  .labelNombre {
+    position: absolute;
+    width: 80px;
+    height: 24px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    left: 44px;
+    top: 2.3rem;
+    z-index: 2;
+    padding: 0.2rem 1rem;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    z-index: 2;
+    padding: 0.3rem;
+    text-align: center;
+    display: block;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.84);
+    background: #e4cdbb;
+    border-radius: 5px;
+  }
+  .inputEmail {
+    position: relative;
+    width: 90%;
+    height: 52px;
+    left: 0%;
+    margin: 0 auto;
+    top: 77px;
+
+    border: 1px solid #a98b73;
+    box-sizing: border-box;
+    border-radius: 15px;
+  }
+  .labelEmail {
+    position: absolute;
+    width: 66px;
+    height: 24px;
+    left: 45px;
+    top: 115px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    padding: 0.2rem 1rem;
+
+    z-index: 2;
+    padding: 0.3rem;
+    text-align: center;
+    display: block;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.84);
+    background: #e4cdbb;
+    border-radius: 5px;
+  }
+  .inputText {
+    position: relative;
+    width: 90%;
+    height: 270px;
+    left: 0%;
+    margin: 0 auto;
+    top: 112px;
+    border: 1px solid #a98b73;
+    box-sizing: border-box;
+    border-radius: 15px;
+  }
+  .labelText {
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    left: 2.8rem;
+    top: 12.8rem;
+    z-index: 2;
+    padding: 0.3rem;
+    text-align: center;
+    display: block;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.84);
+    background: #e4cdbb;
+    border-radius: 5px;
+  }
+  .btnForm {
+    position: relative;
+    width: 27%;
+    height: 39px;
+    left: 0%;
+    max-width: 121px;
+    margin: 0 auto;
+    top: 150px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #778690;
+    border: 2px solid #606e77;
+    box-sizing: border-box;
+    border-radius: 100px;
+  }
+  .btnForm a {
+    position: relative;
+    text-decoration: none;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+  form input::placeholder {
+    position: absolute;
+    width: auto;
+    height: 32px;
+    top: 12px;
+    left: 42px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+    color: #778690;
+  }
+  form input {
+    font-family: Lora;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0.3rem;
+  }
   * {
     padding: 0;
     margin: 0;
@@ -859,7 +1350,7 @@
   .navbar-toggler-icon2 {
     margin-top: 17.1rem;
     margin-left: 0rem;
-  /*   box-shadow: 0px 50px 0px 50px rgba(255, 255, 255, 0.3); */
+    /*   box-shadow: 0px 50px 0px 50px rgba(255, 255, 255, 0.3); */
   }
   /* INDEX */
   .index {
@@ -916,7 +1407,7 @@
     margin: 0 auto;
     max-width: 291px;
     border-radius: 0px 0px 45px 45px;
-   /*  box-shadow: 0px 50px 50px 80px rgba(255, 255, 255, 0.5); */
+    /*  box-shadow: 0px 50px 50px 80px rgba(255, 255, 255, 0.5); */
   }
   .brand {
     position: relative;
@@ -1540,7 +2031,6 @@
     left: 0px;
     top: 10px;
     margin: 0 1rem;
-    
   }
   .cajaEmail img {
     position: relative;
@@ -1613,7 +2103,7 @@
     position: relative;
     width: 90%;
     height: 52px;
-    left: 0%;
+    left: 5%;
     margin: 0 auto;
     top: 48px;
     border: 1px solid #a98b73;
@@ -1651,7 +2141,8 @@
     position: relative;
     width: 90%;
     height: 52px;
-    left: 0%;
+    left: 5%;
+
     margin: 0 auto;
     top: 77px;
 
@@ -1686,7 +2177,8 @@
     position: relative;
     width: 90%;
     height: 270px;
-    left: 0%;
+    left: 5%;
+
     margin: 0 auto;
     top: 112px;
     border: 1px solid #a98b73;
@@ -1717,12 +2209,15 @@
     position: relative;
     width: 27%;
     height: 39px;
+    display: flex;
+    flex-direction: row;
     left: 0%;
     max-width: 121px;
     margin: 0 auto;
     top: 150px;
+    text-align: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-      background: #778690;
+    background: #778690;
     border: 2px solid #606e77;
     box-sizing: border-box;
     border-radius: 100px;
@@ -1736,7 +2231,7 @@
     font-size: 14px;
     line-height: 19px;
     /* identical to box height */
-
+    margin: auto;
     text-align: center;
 
     color: #ffffff;
@@ -1766,13 +2261,29 @@
   }
 }
 
-@media screen and (min-width:410px) {
+@media screen and (min-width: 410px) {
   .navbar-toggler-icon2 {
     margin-top: 15.7rem;
   }
-
 }
-@media screen and (min-width:768px) and (max-width:1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 1080px;
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+  }
+  body {
+    width: 100%;
+
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    height: 1080px;
+    scroll-behavior: smooth;
+  }
   .navLink a {
     font-size: 13px;
     margin: 0px 10px;
@@ -1783,13 +2294,524 @@
   .titulo {
     font-size: 65px;
   }
-  .subTitulo {
-    font-size: 28px;
-  }
+  
   .tituloSobreMi {
     font-size: 90px;
   }
-  .botonCartaNatal {
-    height: 25px;
+  .brand-lg {
+    position: relative;
+    width: 80%;
+    max-width: 1003px;
+    max-width: 900px;
+    height: 469px;
+    text-align: center;
+    margin: 72px 5%;
+  }
+  .titulo {
+    position: absolute;
+    width: 99%;
+    max-width: 1022px;
+    height: 128px;
+    text-align: center;
+    top: 496px;
+    margin: 72px 0;
+    font-family: Cinzel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 85px;
+    line-height: 128px;
+    color: #778690;
+  }
+  .subTitulo {
+    position: absolute;
+    width: 90%;
+    height: 38px;
+    top: 800px;
+    font-family: Lora;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+    color: #b1b9c6;
+    text-align: center;
+    margin: 72px 5%;
+  }
+  .otros {
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+    background: #ffffff;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+  }
+  .tituloOtros {
+    position: relative;
+    width: 100%;
+    height: 32px;
+    left: 0%;
+    top: 42px;
+    text-align: center;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #606e77;
+  }
+  .estrellas5 {
+    display: none;
+  }
+  .contenidoOtros {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    height: 839px;
+    left: 0%;
+    top: 104px;
+    background: #ebede6;
+  }
+  .tarjetasOtros {
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    flex-direction: column;
+  }
+  .tarjeta1 {
+    position: relative;
+    width: 100%;
+    height: 166px;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #606e77;
+    border-radius: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .btnTarjeta1 {
+    position: relative;
+    width: 35%;
+    height: 39px;
+    left: 0%;
+    top: 34px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 5px solid #606e77;
+    box-sizing: border-box;
+    border-radius: 500px;
+    background: #606e77;
+    max-width: 130px;
+  }
+  .btnTarjeta1 a {
+    position: initial;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+  .tituloTarjeta1 {
+    position: relative;
+    width: 100%;
+    height: 23px;
+    left: 0%;
+    top: 15px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ebede6;
+  }
+  .tarjeta1 p {
+    position: relative;
+    width: 100%;
+    height: 93px;
+    left: 2rem;
+    top: 1rem;
+    text-align: left;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.5px;
+    line-height: 39px;
+    color: #ebede6;
+  }
+  .tarjeta2 {
+    position: relative;
+    width: 100%;
+    height: 135px;
+    left: 0;
+    top: 120px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #606e77;
+    border-radius: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .btnTarjeta2 {
+    position: relative;
+    width: 35%;
+    height: 39px;
+    left: 0%;
+    margin: 0 auto;
+    top: 160px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #606e77;
+    border: 5px solid #606e77;
+    box-sizing: border-box;
+    border-radius: 500px;
+    max-width: 130px;
+  }
+  .btnTarjeta2 a {
+    position: initial;
+
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    text-decoration: none;
+    text-align: center;
+
+    color: #ffffff;
+  }
+  .tituloTarjeta2 {
+    position: relative;
+    width: 100%;
+    height: 23px;
+    left: 0%;
+    top: 15px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ebede6;
+    text-align: center;
+  }
+  .tarjeta2 p {
+    position: absolute;
+    width: 100%;
+    height: 59px;
+    left: 2rem;
+    top: 3rem;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.5px;
+    line-height: 36px;
+    text-align: left;
+    color: #ffffff;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .circulos {
+    position: absolute;
+    width: 13px;
+    height: 90px;
+    left: 12px;
+    top: 61px;
+  }
+  .circulos2 {
+    position: absolute;
+    width: 13px;
+    height: 51px;
+    left: 12px;
+    top: 59px;
+  }
+  /* contactame */
+  .contactame {
+    position: relative;
+    height: 100%;
+    min-height: 1240px;
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-bottom: 0;
+    box-sizing: border-box;
+  }
+  .tituloContactame {
+    position: absolute;
+    width: 100%;
+    height: 32px;
+    left: 0%;
+    top: 13px;
+    text-align: center;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #606e77;
+  }
+  .cajaEmail {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    height: 97px;
+    left: 0%;
+    top: 56px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #e4cdbb;
+    border-radius: 20px;
+  }
+  .cajaRRSS {
+    position: relative;
+    width: 80%;
+    height: 52.9px;
+    left: 0%;
+    top: 70px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #e4cdbb;
+    border-radius: 20px;
+  }
+  .cajaRRSS img {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 10px;
+    margin: 0 1rem;
+  }
+  .cajaEmail img {
+    position: relative;
+    width: 25.31px;
+    height: 20%;
+    left: 0%;
+    top: 7px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+  }
+  .cajaEmail h6 {
+    position: relative;
+    width: 100%;
+    height: 24px;
+    left: 0%;
+    top: 10px;
+    text-align: center;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #ffffff;
+  }
+  .cajaEmail p {
+    width: 100%;
+    height: 18px;
+    left: 0;
+    top: 0px;
+    text-align: center;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+    color: rgba(255, 255, 255, 0.78);
+  }
+  .consultanos {
+    position: absolute;
+    width: 100%;
+    height: 23px;
+    left: 0;
+    top: 254px;
+    display: block;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    text-align: center;
+    /* LETRA */
+
+    color: #778690;
+  }
+  .form {
+    position: relative;
+    width: 100%;
+    height: 723px;
+    left: 0px;
+    margin: 0 auto;
+    top: 130px;
+  }
+  .inputName {
+    position: relative;
+    width: 80%;
+    height: 52px;
+    left: 0%;
+    margin: 0 auto;
+    top: 48px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #a98b73;
+    box-sizing: border-box;
+    border-radius: 15px;
+  }
+  .labelNombre {
+    position: absolute;
+    width: 80px;
+    height: 24px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    left: 20%;
+    top: 2.3rem;
+    z-index: 2;
+    padding: 0.2rem 1rem;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    z-index: 2;
+    padding: 0.3rem;
+    text-align: center;
+    display: block;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.84);
+    background: #e4cdbb;
+    border-radius: 5px;
+  }
+  .inputEmail {
+    position: relative;
+    width: 80%;
+    height: 52px;
+    left: 0%;
+    margin: 0 auto;
+    top: 48px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #a98b73;
+    box-sizing: border-box;
+    border-radius: 15px;
+  }
+  .labelEmail {
+    position: absolute;
+    width: 66px;
+    height: 24px;
+    left: 20%;
+    top: 115px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    padding: 0.2rem 1rem;
+
+    z-index: 2;
+    padding: 0.3rem;
+    text-align: center;
+    display: block;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.84);
+    background: #e4cdbb;
+    border-radius: 5px;
+  }
+  .inputText {
+    position: relative;
+    width: 80%;
+    height: 270px;
+    left: 0%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    top: 48px;
+    border: 1px solid #a98b73;
+    box-sizing: border-box;
+    border-radius: 15px;
+  }
+  .labelText {
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    left: 20%;
+    top: 11.8rem;
+    z-index: 2;
+    padding: 0.3rem;
+    text-align: center;
+    display: block;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.84);
+    background: #e4cdbb;
+    border-radius: 5px;
+  }
+  .btnForm {
+    position: relative;
+    width: 27%;
+    height: 39px;
+    left: 0%;
+    max-width: 121px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    top: 80px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #778690;
+    border: 2px solid #606e77;
+    box-sizing: border-box;
+    border-radius: 100px;
+  }
+  .btnForm a {
+    position: relative;
+    text-decoration: none;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+    margin: auto;
+    color: #ffffff;
+  }
+  form input::placeholder {
+    position: absolute;
+    width: auto;
+    height: 32px;
+    top: 12px;
+    left: 42px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+    color: #778690;
+  }
+  form input {
+    font-family: Lora;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0.3rem;
   }
 }
