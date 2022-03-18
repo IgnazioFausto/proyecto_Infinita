@@ -1,0 +1,1454 @@
+@media screen and (min-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .navLink a:hover {
+    color: #606e77;
+  }
+  html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+  }
+  body {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    height: 1080px;
+    scroll-behavior: smooth;
+  }
+  .overflow-wrapper {
+    height: 100vh;
+  }
+  .container-fluid {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* INDEX */
+  .index {
+    height: 100%;
+    width: 100%;
+    border-radius: 0px;
+    position: relative;
+    background: white;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+  }
+  .nav {
+    position: relative;
+    flex-direction: row;
+    z-index: 99;
+    width: 100%;
+    height: 92px;
+    left: 0px;
+    top: 0px;
+    background: #e7d4b6;
+    justify-content: flex-start;
+  }
+  .navLink a {
+    position: relative;
+    width: 100%;
+    height: 27px;
+    font-family: Cinzel Decorative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    margin: 0 15px;
+    color: #000000;
+    text-decoration: none;
+  }
+  .navLista {
+    position: relative;
+    width: 100%;
+    height: 17px;
+    right: 10%;
+    justify-content: end;
+    display: flex;
+    margin: auto;
+    list-style-type: none;
+    flex-direction: row;
+  }
+  .brand {
+    position: relative;
+    width: 106px;
+    height: 82px;
+    left: 5%;
+    top: 0px;
+  }
+  .brand-lg {
+    position: relative;
+    width: 90%;
+    max-width: 900px;
+    height: 469px;
+    text-align: center;
+    margin: 72px 5%;
+  }
+  .titulo {
+    position: absolute;
+    width: 99%;
+    height: 128px;
+    text-align: center;
+    top: 496px;
+    margin: 72px 0;
+    font-family: Cinzel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 95px;
+    line-height: 128px;
+    color: #778690;
+  }
+  .subTitulo {
+    position: absolute;
+    width: 90%;
+    height: 38px;
+    top: 664px;
+    font-family: Lora;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+    color: #b1b9c6;
+    text-align: center;
+    margin: 72px 5%;
+  }
+  /* sobre mi  */
+  .sobreMi {
+    position: relative;
+    width: 100%;
+    height: 120%;
+    background: #ffffff;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+  }
+  .tituloSobreMi {
+    position: relative;
+    width: 100%;
+    height: 141px;
+    left: 0%;
+    text-align: center;
+    top: 22px;
+    font-family: Cinzel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 135px;
+    color: #606e77;
+  }
+  .subTituloSobreMi {
+    position: relative;
+    width: 90%;
+    height: 43px;
+    left: 5%;
+    top: -115px;
+    font-family: Cinzel;
+    font-style: bold;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 43px;
+    text-align: center;
+    color: #606e77;
+  }
+  .contenidoSobreMi {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 151px;
+    background: #e7d4b6;
+  }
+  .profilePhoto {
+    position: relative;
+    width: 95%;
+    height: 402px;
+    margin: 0 auto;
+    max-width: 1200px;
+    top: -10px;
+    border-radius: 15px;
+    z-index: 0;
+  }
+  .contenidoSobreMi p {
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+    height: 355px;
+    margin: 0 auto;
+    top: 0px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: justify;
+    color: #606e77;
+  }
+  .estrellas {
+    z-index: 1;
+    position: relative;
+    width: 98px;
+    height: 136px;
+    left: -40%;
+    top: 85%;
+  }
+  .estrellas2 {
+    position: absolute;
+    width: 98px;
+    height: 116px;
+    left: 75%;
+    top: 100px;
+    z-index: 1;
+  }
+  /* carta natal */
+  .cartaNatal {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border-radius: 0px;
+    margin-bottom: 164px;
+  }
+  .tituloCartaNatal {
+    position: relative;
+    width: 100%;
+    height: 94px;
+    left: 0;
+    top: 150px;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 94px;
+    color: #e7d4b6;
+    text-align: center;
+  }
+  .container-fluid {
+    padding: 0 !important;
+  }
+  .contenidoCartaNatal {
+    position: relative;
+    width: 100%;
+    height: 852px;
+    left: 0px;
+    top: 142px;
+    padding: 0;
+    background: #e4cdbb;
+  }
+  .subTituloCartaNatal {
+    position: relative;
+    width: 100%;
+    height: 43px;
+    top: 28.03px;
+    font-family: Cinzel;
+    font-style: bold;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 43px;
+    text-align: center;
+    color: #606e77;
+  }
+  .contenidoCartaNatal p {
+    position: relative;
+    width: 90%;
+    height: 158px;
+    max-width: 1200px;
+    margin: 0 auto;
+    top: 123px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: justify;
+    color: #606e77;
+  }
+  .indian-house {
+    position: absolute;
+    width: 40%;
+    max-width: 480px;
+    height: 50%;
+    left: 31px;
+    top: 455px;
+  }
+  .estrellas3 {
+    position: absolute;
+    width: 10%;
+    max-width: 115px;
+    height: 136px;
+    left: 331px;
+    top: 419px;
+  }
+  .botonCoaching {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 35%;
+    min-width: 325px;
+    max-width: 514px;
+    height: 145px;
+    margin: 0 auto;
+    top: 202px;
+    background: #606e77;
+    border: 5px solid #606e77;
+    box-sizing: border-box;
+    border-radius: 500px;
+  }
+  .botonCoaching a {
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 67px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    align-self: center;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .botonCoaching:hover,
+  .botonCartaNatal:hover,
+  .btnTarjeta1:hover,
+  .btnTarjeta2:hover,
+  .btnForm:hover {
+    background: #778690;
+    /* 2 */
+
+    border: 5px solid #606e77;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 500px;
+  }
+  .botonCoaching a:hover,
+  .botonCartaNatal a:hover,
+  .btnTarjeta1 a:hover,
+  .btnTarjeta2 a:hover,
+  .btnForm a:hover {
+    color: white;
+  }
+  .coaching {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+  }
+  .contenidoCoaching {
+    position: absolute;
+    width: 100%;
+    height: 852px;
+    left: 0px;
+    top: 151px;
+    background: #b1b9c6;
+  }
+  .tituloCoaching {
+    position: relative;
+    width: 100%;
+    height: 94px;
+    left: 0%;
+    top: 36px;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 94px;
+    text-align: center;
+    color: #e7d4b6;
+  }
+  .subTituloCoaching {
+    position: relative;
+    width: 100%;
+    height: 47px;
+    left: 0%;
+    top: 25.56px;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 47px;
+    text-align: center;
+    color: #ebede6;
+  }
+  .contenidoCoaching p {
+    position: relative;
+    width: 90%;
+    height: 213px;
+    max-width: 1200px;
+    margin: 0 auto;
+    top: 121px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: justify;
+    color: #ebede6;
+  }
+  .estrellas4 {
+    position: relative;
+    width: 10%;
+    height: 136px;
+    left: 10%;
+    top: 22px;
+    max-width: 115px;
+  }
+  .faro {
+    position: absolute;
+    width: 30%;
+    height: 40%;
+    left: 70%;
+    top: 450px;
+  }
+  .botonCartaNatal {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 35%;
+    min-width: 325px;
+    max-width: 514px;
+    height: 145px;
+    margin: 0 auto;
+    top: 402px;
+    background: #606e77;
+    border: 5px solid #606e77;
+    box-sizing: border-box;
+    border-radius: 500px;
+  }
+  .botonCartaNatal a {
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 67px;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  /* otros */
+  .otros {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+  }
+  .tituloOtros {
+    position: relative;
+    width: 100%;
+    height: 94px;
+    left: 0%;
+    top: 11px;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 94px;
+    color: #e7d4b6;
+    text-align: center;
+  }
+  .estrellas5 {
+    position: absolute;
+    width: 98px;
+    height: 136px;
+    left: 107px;
+    top: 20px;
+  }
+  .contenidoOtros {
+    position: relative;
+    width: 100%;
+    max-width: 1450px;
+    height: 839px;
+    left: 0%;
+    top: 104px;
+    margin: 0 auto;
+    background: #ebede6;
+    justify-content: center;
+  }
+  .tarjetasOtros {
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    justify-content: space-around;
+  }
+  .tarjeta1 {
+    position: relative;
+    width: 40%;
+    min-width: 496px;
+    height: 331px;
+    left: 0%;
+    top: 0px;
+    background: #606e77;
+    border-radius: 15px;
+  }
+  .btnTarjeta1 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 35%;
+    max-width: 358px;
+    height: 101.38px;
+    left: 10%;
+    top: 461px;
+    background: #606e77;
+    border: 5px solid #606e77;
+    box-sizing: border-box;
+    border-radius: 500px;
+  }
+  .btnTarjeta1 a {
+    position: absolute;
+    width: 226px;
+    height: 47px;
+    left: 73px;
+    top: 27px;
+    text-decoration: none;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 47px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .tituloTarjeta1 {
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    align-items: center;
+    top: 17px;
+    left: 169px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 45px;
+    color: #ebede6;
+  }
+  .tarjeta1 p {
+    position: absolute;
+    width: 480.52px;
+    height: 175px;
+    left: 62px;
+    top: 120px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 61px;
+    color: #ebede6;
+  }
+  .tarjeta2 {
+    position: relative;
+    width: 40%;
+    height: 331px;
+    left: 0%;
+    top: 0px;
+    background: #606e77;
+    border-radius: 15px;
+    min-width: 496px;
+  }
+  .btnTarjeta2 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 35%;
+    max-width: 358px;
+    height: 101.38px;
+    left: 64%;
+    top: 461px;
+    background: #606e77;
+    border: 5px solid #606e77;
+    box-sizing: border-box;
+    border-radius: 500px;
+  }
+  .btnTarjeta2 a {
+    position: absolute;
+    width: 226px;
+    height: 47px;
+    left: 73px;
+    top: 27px;
+    text-decoration: none;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 47px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .tituloTarjeta2 {
+    position: absolute;
+    width: 263px;
+    height: 45px;
+    left: 145px;
+    top: 17px;
+    text-align: center;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 45px;
+    color: #ebede6;
+  }
+  .tarjeta2 p {
+    position: absolute;
+    width: 373px;
+    height: 194px;
+    left: 62px;
+    top: 103px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 61px;
+    color: #ffffff;
+  }
+  .circulos {
+    position: absolute;
+    width: 23.1px;
+    height: 150px;
+    left: 27px;
+    top: 135px;
+  }
+  .circulos2 {
+    position: absolute;
+    width: 20px;
+    height: 85px;
+    left: 24px;
+    top: 118px;
+  }
+  /* contactame */
+  .contactame {
+    position: relative;
+    height: 100%;
+    min-height: 1440px;
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+  }
+  .tituloContactame {
+    position: relative;
+    width: 100%;
+    height: 94px;
+    left: 0%;
+    top: 99px;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 94px;
+    color: #606e77;
+    text-align: center;
+  }
+  .cajaEmail {
+    position: relative;
+    min-width: 374px;
+    width: 30%;
+    height: 246px;
+    left: 15%;
+    top: 194px;
+    background: #e4cdbb;
+    border-radius: 20px;
+  }
+  .cajaRRSS {
+    position: relative;
+    min-width: 374px;
+    width: 30%;
+    height: 147px;
+    left: 15%;
+    top: 253px;
+    background: #e4cdbb;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .cajaRRSS img {
+    width: 70px;
+    margin: 2.3rem;
+  }
+  .cajaEmail img {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    left: 0%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    top: 19px;
+  }
+  .cajaEmail h6 {
+    position: relative;
+    width: 91px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    height: 40px;
+    left: 0%;
+    margin: 0 auto;
+    top: 23px;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #ffffff;
+  }
+  .cajaEmail p {
+    position: relative;
+    width: 367px;
+    height: 26px;
+    left: 0%;
+    text-align: center;
+    margin: 0 auto;
+    top: 63px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.78);
+  }
+  .consultanos {
+    display: none;
+  }
+  .form {
+    position: absolute;
+    width: 627px;
+    height: 723px;
+    left: 50%;
+    top: 261px;
+  }
+  .inputName {
+    position: relative;
+    width: 80%;
+    max-width: 627px;
+    height: 80px;
+    border: 2px solid #a98b73;
+    box-sizing: border-box;
+    border-radius: 20px;
+  }
+  .labelNombre {
+    position: relative;
+    width: 139px;
+    height: 34px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    left: 3rem;
+    top: 1.4rem;
+    z-index: 2;
+    padding: 0.3rem;
+    text-align: center;
+    display: block;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.84);
+    background: #e4cdbb;
+    border-radius: 5px;
+  }
+  .inputEmail {
+    position: relative;
+    width: 80%;
+    max-width: 627px;
+    height: 80px;
+    top: 9px;
+    border: 2px solid #a98b73;
+    box-sizing: border-box;
+    border-radius: 20px;
+  }
+  .labelEmail {
+    position: relative;
+    width: 139px;
+    height: 34px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    left: 3rem;
+    top: 1.9rem;
+    z-index: 2;
+    padding: 0.3rem;
+    text-align: center;
+    display: block;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.84);
+    background: #e4cdbb;
+    border-radius: 5px;
+  }
+  .inputText {
+    position: relative;
+    width: 80%;
+    max-width: 627px;
+    height: 335px;
+    top: 18px;
+    border: 2px solid #a98b73;
+    box-sizing: border-box;
+    border-radius: 20px;
+  }
+  .labelText {
+    position: relative;
+    width: 139px;
+    height: 34px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    left: 3rem;
+    top: 2.5rem;
+    z-index: 2;
+    padding: 0.3rem;
+    text-align: center;
+    display: block;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.84);
+    background: #e4cdbb;
+    border-radius: 5px;
+  }
+  .btnForm {
+    position: relative;
+    width: 288px;
+    height: 80px;
+    top: 51px;
+    background: #606e77;
+    border: 2px solid #606e77;
+    box-sizing: border-box;
+    border-radius: 100px;
+  }
+  .btnForm a {
+    position: relative;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  form input::placeholder {
+    position: absolute;
+    width: auto;
+    height: 32px;
+    top: 29px;
+    left: 42px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+    color: #778690;
+  }
+  form input {
+    font-family: Lora;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0.3rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 1080px;
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+  }
+  body {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    height: 1080px;
+    scroll-behavior: smooth;
+  }
+  .navLink a {
+    font-size: 13px;
+    margin: 0px 10px;
+  }
+  .navLink a:hover {
+    color: #606e77;
+  }
+  .navLista {
+    right: 2%;
+  }
+  .titulo {
+    font-size: 65px;
+  }
+
+  .tituloSobreMi {
+    font-size: 90px;
+  }
+  .brand-lg {
+    position: relative;
+    width: 80%;
+    max-width: 1003px;
+    max-width: 900px;
+    height: 469px;
+    text-align: center;
+    margin: 72px 5%;
+  }
+  .titulo {
+    position: absolute;
+    width: 99%;
+    max-width: 1022px;
+    height: 128px;
+    text-align: center;
+    top: 496px;
+    margin: 72px 0;
+    font-family: Cinzel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 85px;
+    line-height: 128px;
+    color: #778690;
+  }
+  .subTitulo {
+    position: absolute;
+    width: 90%;
+    height: 38px;
+    top: 800px;
+    font-family: Lora;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+    color: #b1b9c6;
+    text-align: center;
+    margin: 72px 5%;
+  }
+  .otros {
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+    background: #ffffff;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+  }
+  .tituloOtros {
+    position: relative;
+    width: 100%;
+    height: 32px;
+    left: 0%;
+    top: 42px;
+    text-align: center;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #606e77;
+  }
+  .estrellas5 {
+    display: none;
+  }
+  .contenidoOtros {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    height: 839px;
+    left: 0%;
+    top: 104px;
+    background: #ebede6;
+  }
+  .tarjetasOtros {
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    flex-direction: column;
+  }
+  .tarjeta1 {
+    position: relative;
+    width: 100%;
+    height: 166px;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #606e77;
+    border-radius: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .btnTarjeta1 {
+    position: relative;
+    width: 35%;
+    height: 39px;
+    left: 0%;
+    top: 34px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 5px solid #606e77;
+    box-sizing: border-box;
+    border-radius: 500px;
+    background: #606e77;
+    max-width: 130px;
+  }
+  .btnTarjeta1 a {
+    position: initial;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #ffffff;
+  }
+  .tituloTarjeta1 {
+    position: relative;
+    width: 100%;
+    height: 23px;
+    left: 0%;
+    top: 15px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ebede6;
+  }
+  .tarjeta1 p {
+    position: relative;
+    width: 100%;
+    height: 93px;
+    left: 2rem;
+    top: 1rem;
+    text-align: left;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.5px;
+    line-height: 39px;
+    color: #ebede6;
+  }
+  .tarjeta2 {
+    position: relative;
+    width: 100%;
+    height: 135px;
+    left: 0;
+    top: 120px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #606e77;
+    border-radius: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .btnTarjeta2 {
+    position: relative;
+    width: 35%;
+    height: 39px;
+    left: 0%;
+    margin: 0 auto;
+    top: 160px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #606e77;
+    border: 5px solid #606e77;
+    box-sizing: border-box;
+    border-radius: 500px;
+    max-width: 130px;
+  }
+  .btnTarjeta2 a {
+    position: initial;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+  }
+  .tituloTarjeta2 {
+    position: relative;
+    width: 100%;
+    height: 23px;
+    left: 0%;
+    top: 15px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ebede6;
+    text-align: center;
+  }
+  .tarjeta2 p {
+    position: absolute;
+    width: 100%;
+    height: 59px;
+    left: 2rem;
+    top: 3rem;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.5px;
+    line-height: 36px;
+    text-align: left;
+    color: #ffffff;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .circulos {
+    position: absolute;
+    width: 13px;
+    height: 90px;
+    left: 12px;
+    top: 61px;
+  }
+  .circulos2 {
+    position: absolute;
+    width: 13px;
+    height: 51px;
+    left: 12px;
+    top: 59px;
+  }
+  /* contactame */
+  .contactame {
+    position: relative;
+    height: 100%;
+    min-height: 1240px;
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-bottom: 0;
+    box-sizing: border-box;
+  }
+  .tituloContactame {
+    position: absolute;
+    width: 100%;
+    height: 32px;
+    left: 0%;
+    top: 13px;
+    text-align: center;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #606e77;
+  }
+  .cajaEmail {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    height: 97px;
+    left: 0%;
+    top: 56px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #e4cdbb;
+    border-radius: 20px;
+  }
+  .cajaRRSS {
+    position: relative;
+    width: 80%;
+    height: 52.9px;
+    left: 0%;
+    top: 70px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #e4cdbb;
+    border-radius: 20px;
+  }
+  .cajaRRSS img {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 10px;
+    margin: 0 1rem;
+  }
+  .cajaEmail img {
+    position: relative;
+    width: 25.31px;
+    height: 20%;
+    left: 0%;
+    top: 7px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+  }
+  .cajaEmail h6 {
+    position: relative;
+    width: 100%;
+    height: 24px;
+    left: 0%;
+    top: 10px;
+    text-align: center;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  .cajaEmail p {
+    width: 100%;
+    height: 18px;
+    left: 0;
+    top: 0px;
+    text-align: center;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.78);
+  }
+  .consultanos {
+    position: absolute;
+    width: 100%;
+    height: 23px;
+    left: 0;
+    top: 254px;
+    display: block;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #778690;
+  }
+  .form {
+    position: relative;
+    width: 100%;
+    height: 723px;
+    left: 0px;
+    margin: 0 auto;
+    top: 130px;
+  }
+  .inputName {
+    position: relative;
+    width: 80%;
+    height: 52px;
+    left: 0%;
+    margin: 0 auto;
+    top: 48px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #a98b73;
+    box-sizing: border-box;
+    border-radius: 15px;
+  }
+  .labelNombre {
+    position: absolute;
+    width: 80px;
+    height: 24px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    left: 20%;
+    top: 2.3rem;
+    z-index: 2;
+    padding: 0.2rem 1rem;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    z-index: 2;
+    padding: 0.3rem;
+    text-align: center;
+    display: block;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.84);
+    background: #e4cdbb;
+    border-radius: 5px;
+  }
+  .inputEmail {
+    position: relative;
+    width: 80%;
+    height: 52px;
+    left: 0%;
+    margin: 0 auto;
+    top: 48px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #a98b73;
+    box-sizing: border-box;
+    border-radius: 15px;
+  }
+  .labelEmail {
+    position: absolute;
+    width: 66px;
+    height: 24px;
+    left: 20%;
+    top: 115px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0.2rem 1rem;
+    z-index: 2;
+    padding: 0.3rem;
+    text-align: center;
+    display: block;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.84);
+    background: #e4cdbb;
+    border-radius: 5px;
+  }
+  .inputText {
+    position: relative;
+    width: 80%;
+    height: 270px;
+    left: 0%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    top: 48px;
+    border: 1px solid #a98b73;
+    box-sizing: border-box;
+    border-radius: 15px;
+  }
+  .labelText {
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    left: 20%;
+    top: 11.8rem;
+    z-index: 2;
+    padding: 0.3rem;
+    text-align: center;
+    display: block;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.84);
+    background: #e4cdbb;
+    border-radius: 5px;
+  }
+  .btnForm {
+    position: relative;
+    width: 27%;
+    height: 39px;
+    left: 0%;
+    max-width: 121px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    top: 80px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #778690;
+    border: 2px solid #606e77;
+    box-sizing: border-box;
+    border-radius: 100px;
+  }
+  .btnForm a {
+    position: relative;
+    text-decoration: none;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    margin: auto;
+    color: #ffffff;
+  }
+  form input::placeholder {
+    position: absolute;
+    width: auto;
+    height: 32px;
+    top: 12px;
+    left: 42px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+    color: #778690;
+  }
+  form input {
+    font-family: Lora;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0.3rem;
+  }
+
+  .navLink a:hover {
+    color: #606e77;
+  }
+  .btnForm a:hover {
+    color: white;
+  }
+  .botonCoaching:hover,
+  .botonCartaNatal:hover,
+  .btnTarjeta1:hover,
+  .btnTarjeta2:hover,
+  .btnForm:hover {
+    background: #778690;
+    /* 2 */
+
+    border: 5px solid #606e77;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 500px;
+  }
+  .botonCoaching a:hover,
+  .botonCartaNatal a:hover,
+  .btnTarjeta1 a:hover,
+  .btnTarjeta2 a:hover,
+  .btnForm a:hover {
+    color: white;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1225px) {
+  .navLink a {
+    position: relative;
+    width: 100%;
+    height: 27px;
+    font-family: Cinzel Decorative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    margin: 0 10px;
+    color: #000000;
+    text-decoration: none;
+  }
+  .navLista {
+    position: relative;
+    width: 100%;
+    height: 17px;
+    right: 0%;
+    justify-content: end;
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+  }
+}
