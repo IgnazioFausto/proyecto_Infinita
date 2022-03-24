@@ -36,7 +36,6 @@
     border-radius: 0px;
     position: relative;
     background: white;
-    border: 1px solid #000000;
     box-sizing: border-box;
   }
   .nav {
@@ -123,7 +122,6 @@
     width: 100%;
     height: 120%;
     background: #ffffff;
-    border: 1px solid #000000;
     box-sizing: border-box;
   }
   .tituloSobreMi {
@@ -268,10 +266,11 @@
   .indian-house {
     position: absolute;
     width: 40%;
-    max-width: 480px;
-    height: 50%;
+    max-width: 400px;
+    height: 40%;
+    max-height: 400px;
     left: 31px;
-    top: 455px;
+    top: 520px;
   }
   .estrellas3 {
     position: absolute;
@@ -286,9 +285,10 @@
     flex-direction: row;
     position: relative;
     width: 35%;
-    min-width: 325px;
-    max-width: 514px;
-    height: 145px;
+    min-width: 125px;
+    max-width: 214px;
+    height: 10%;
+    max-height: 100px;
     margin: 0 auto;
     top: 202px;
     background: #606e77;
@@ -300,7 +300,7 @@
     font-family: "Cinzel";
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
+    font-size: clamp(1rem, 1.5rem, 2rem);
     line-height: 67px;
     text-align: center;
     justify-content: center;
@@ -334,7 +334,6 @@
     height: 100%;
     width: 100%;
     background: #ffffff;
-    border: 1px solid #000000;
     box-sizing: border-box;
   }
   .contenidoCoaching {
@@ -408,9 +407,10 @@
     flex-direction: row;
     position: relative;
     width: 35%;
-    min-width: 325px;
-    max-width: 514px;
-    height: 145px;
+    min-width: 125px;
+    max-width: 214px;
+    height: 10%;
+    max-height: 100px;
     margin: 0 auto;
     top: 402px;
     background: #606e77;
@@ -422,7 +422,7 @@
     font-family: "Cinzel";
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
+    font-size: clamp(1rem, 1.5rem, 2rem);
     line-height: 67px;
     text-align: center;
     margin: auto;
@@ -435,7 +435,6 @@
     height: 100%;
     width: 100%;
     background: #ffffff;
-    border: 1px solid #000000;
     box-sizing: border-box;
   }
   .tituloOtros {
@@ -492,23 +491,28 @@
   .btnTarjeta1 {
     display: flex;
     flex-direction: row;
-    position: absolute;
-    width: 35%;
-    max-width: 358px;
+    position: relative;
+    width: 50%;
+    max-width: 350px;
     height: 101.38px;
-    left: 10%;
-    top: 461px;
+    left: 0%;
+    top: 400px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
     background: #606e77;
     border: 5px solid #606e77;
     box-sizing: border-box;
     border-radius: 500px;
   }
   .btnTarjeta1 a {
-    position: absolute;
+    position: relative;
     width: 226px;
     height: 47px;
-    left: 73px;
-    top: 27px;
+    left: 0;
+    top: 0;
+    margin: auto;
     text-decoration: none;
     font-family: "Cinzel";
     font-style: normal;
@@ -558,23 +562,28 @@
   .btnTarjeta2 {
     display: flex;
     flex-direction: row;
-    position: absolute;
-    width: 35%;
-    max-width: 358px;
+    position: relative;
+    width: 50%;
+    max-width: 350px;
     height: 101.38px;
-    left: 64%;
-    top: 461px;
+    left: 0%;
+    top: 400px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
     background: #606e77;
     border: 5px solid #606e77;
     box-sizing: border-box;
     border-radius: 500px;
   }
   .btnTarjeta2 a {
-    position: absolute;
+    position: relative;
     width: 226px;
     height: 47px;
-    left: 73px;
-    top: 27px;
+    left: 0;
+    top: 0;
+    margin: auto;
     text-decoration: none;
     font-family: "Cinzel";
     font-style: normal;
@@ -632,7 +641,6 @@
     min-height: 1440px;
     width: 100%;
     background: #ffffff;
-    border: 1px solid #000000;
     box-sizing: border-box;
   }
   .tituloContactame {
@@ -672,7 +680,7 @@
   }
   .cajaRRSS img {
     width: 70px;
-    margin: 2.3rem;
+    margin:35px 5%;
   }
   .cajaEmail img {
     position: relative;
@@ -737,6 +745,7 @@
     border: 2px solid #a98b73;
     box-sizing: border-box;
     border-radius: 20px;
+    padding: 1.3rem 1rem;
   }
   .labelNombre {
     position: relative;
@@ -767,6 +776,7 @@
     border: 2px solid #a98b73;
     box-sizing: border-box;
     border-radius: 20px;
+    padding: 1.3rem 1rem;
   }
   .labelEmail {
     position: relative;
@@ -794,9 +804,11 @@
     max-width: 627px;
     height: 335px;
     top: 18px;
+    font-family: "Lora";
     border: 2px solid #a98b73;
     box-sizing: border-box;
     border-radius: 20px;
+    padding: 1.3rem 1rem;
   }
   .labelText {
     position: relative;
@@ -838,7 +850,7 @@
     text-decoration: none;
     color: #ffffff;
   }
-  form input::placeholder {
+  form input::placeholder, textarea::placeholder {
     position: absolute;
     width: auto;
     height: 32px;
@@ -851,7 +863,7 @@
     line-height: 32px;
     color: #778690;
   }
-  form input {
+  form input, form textarea {
     font-family: Lora;
     font-size: 25px;
     font-style: normal;
@@ -941,7 +953,6 @@
     width: 100%;
 
     background: #ffffff;
-    border: 1px solid #000000;
     box-sizing: border-box;
   }
   .tituloOtros {
@@ -992,7 +1003,7 @@
     width: 35%;
     height: 39px;
     left: 0%;
-    top: 34px;
+    top: 60px;
     margin: 0 auto;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border: 5px solid #606e77;
@@ -1127,7 +1138,6 @@
     min-height: 1240px;
     width: 100%;
     background: #ffffff;
-    border: 1px solid #000000;
     border-bottom: 0;
     box-sizing: border-box;
   }
@@ -1323,6 +1333,7 @@
     flex-direction: row;
     margin: 0 auto;
     top: 48px;
+    font-family: "Lora";
     border: 1px solid #a98b73;
     box-sizing: border-box;
     border-radius: 15px;
@@ -1388,15 +1399,16 @@
     line-height: 32px;
     color: #778690;
   }
-  form input {
-    font-family: Lora;
+  form input,
+  textarea.inputText {
+    font-family: "Lora";
     font-size: 25px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0em;
     text-align: left;
-    padding: 0.3rem;
+    padding: 0.3rem 1rem;
   }
 
   .navLink a:hover {

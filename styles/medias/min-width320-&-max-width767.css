@@ -8,7 +8,6 @@
   height: 100%;
   width: 100%;
   background: #ffffff;
-  border: 1px solid #000000;
   box-sizing: border-box;
 }
 .navLink a:hover {
@@ -217,7 +216,6 @@
   height: 100%;
   width: 100%;
   background: #ffffff;
-  border: 1px solid #000000;
   border-bottom: 0;
   box-sizing: border-box;
 }
@@ -521,7 +519,6 @@ button.navbar-toggler:focus {
   border-radius: 0px;
   position: relative;
   background: white;
-  border: 1px solid #000000;
   border-top: 0;
 }
 .nav {
@@ -586,6 +583,7 @@ button.navbar-toggler:focus {
 .brand-lg {
   position: relative;
   width: 90%;
+  max-width: 300px;
   height: 233px;
   left: 0px;
   top: 90px;
@@ -626,7 +624,6 @@ button.navbar-toggler:focus {
   width: 100vh;
   height: 100%;
   background: #e7d4b6;
-  border: 1px solid #000000;
   box-sizing: border-box;
 }
 .tituloSobreMi {
@@ -662,15 +659,16 @@ button.navbar-toggler:focus {
   width: auto;
   height: 89%;
   left: 0px;
-  top: 48px;
+  top: 20px;
   background: #e7d4b6;
 }
 .profilePhoto {
   position: relative;
   width: 100%;
+  max-width: 500px;
   height: 162px;
   left: 0%;
-  top: 0px;
+  top: 30px;
   z-index: 0;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
@@ -678,9 +676,10 @@ button.navbar-toggler:focus {
 .contenidoSobreMi p {
   position: relative;
   width: 90%;
+  max-width: 500px;
   height: 366px;
   left: 0%;
-  top: 20px;
+  top: 50px;
   font-family: "Lora";
   font-style: normal;
   font-weight: 400;
@@ -694,10 +693,10 @@ button.navbar-toggler:focus {
   position: relative;
   width: 25.1px;
   height: 34px;
-  left: 43%;
+  left: 32%;
   transform: matrix(1, 0, 0, -1, 0, -1);
   z-index: 1;
-  top: 112px;
+  top: 142px;
 }
 .estrellas2 {
   position: absolute;
@@ -713,7 +712,6 @@ button.navbar-toggler:focus {
   height: 50%;
   width: 100%;
   background: #e4cdbb;
-  border: 1px solid #000000;
   position: relative;
   border-radius: 0px;
 }
@@ -791,7 +789,7 @@ button.navbar-toggler:focus {
   display: flex;
   flex-direction: row;
   text-align: center;
-  top: 0px;
+  top: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   background: #606e77;
   border: 5px solid #606e77;
@@ -845,7 +843,6 @@ button.navbar-toggler:focus {
   height: 50%;
   width: 100%;
   background: #b1b9c6;
-  border: 1px solid #000000;
   box-sizing: border-box;
 }
 .contenidoCoaching {
@@ -919,9 +916,7 @@ button.navbar-toggler:focus {
   position: relative;
   height: 100%;
   width: 100%;
-
   background: #ffffff;
-  border: 1px solid #000000;
   box-sizing: border-box;
 }
 .tituloOtros {
@@ -971,7 +966,7 @@ button.navbar-toggler:focus {
   width: 35%;
   height: 39px;
   left: 0%;
-  top: 34px;
+  top: 60px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border: 5px solid #606e77;
   box-sizing: border-box;
@@ -1035,7 +1030,7 @@ button.navbar-toggler:focus {
   height: 39px;
   left: 0%;
   margin: 0 auto;
-  top: 160px;
+  top: 134px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   background: #606e77;
   border: 5px solid #606e77;
@@ -1105,7 +1100,6 @@ button.navbar-toggler:focus {
   height: 100%;
   width: 100%;
   background: #ffffff;
-  border: 1px solid #000000;
   border-bottom: 0;
   box-sizing: border-box;
 }
@@ -1345,7 +1339,7 @@ button.navbar-toggler:focus {
   text-align: center;
   color: #ffffff;
 }
-form input::placeholder {
+form input::placeholder, textarea::placeholder {
   position: absolute;
   width: auto;
   height: 32px;
@@ -1354,17 +1348,27 @@ form input::placeholder {
   font-family: "Lora";
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 32px;
   color: #778690;
 }
 form input {
-  font-family: Lora;
-  font-size: 25px;
+  font-family: "Lora";
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
   letter-spacing: 0em;
   text-align: left;
-  padding: 0.3rem;
+  padding: 0.3rem 1rem;
+}
+textarea.inputText {
+  font-family: "Lora";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 1rem;
 }
