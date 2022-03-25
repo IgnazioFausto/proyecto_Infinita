@@ -572,6 +572,7 @@ button.navbar-toggler:focus {
 .brand {
   position: relative;
   width: 50%;
+  max-width: 200px;
   height: 76px;
   left: 0%;
   display: flex;
