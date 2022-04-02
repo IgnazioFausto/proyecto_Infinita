@@ -466,7 +466,7 @@
     left: 0%;
     top: 104px;
     margin: 0 auto;
-    background: #ebede6;
+    background: transparent;
     justify-content: center;
   }
   .tarjetasOtros {
@@ -912,9 +912,9 @@
   .brand-lg {
     position: relative;
     width: 80%;
-    max-width: 1003px;
-    max-width: 900px;
-    height: 469px;
+    max-width: 400px;
+    height: 70%;
+    max-height: 523px;
     text-align: center;
     margin: 72px 5%;
   }
@@ -924,12 +924,12 @@
     max-width: 1022px;
     height: 128px;
     text-align: center;
-    top: 496px;
+    top: 300px;
     margin: 72px 0;
     font-family: Cinzel;
     font-style: normal;
     font-weight: normal;
-    font-size: 85px;
+    font-size:clamp(65px, 1.8rem, 65px);
     line-height: 128px;
     color: #778690;
   }
@@ -937,7 +937,7 @@
     position: absolute;
     width: 90%;
     height: 38px;
-    top: 800px;
+    top: 420px;
     font-family: Lora;
     font-style: italic;
     font-weight: normal;
@@ -979,7 +979,7 @@
     height: 839px;
     left: 0%;
     top: 104px;
-    background: #ebede6;
+    background: transparent;
   }
   .tarjetasOtros {
     position: absolute;
