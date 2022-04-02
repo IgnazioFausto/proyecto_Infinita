@@ -516,6 +516,7 @@ button.navbar-toggler:focus {
 .index {
   height: 100%;
   width: 100vh;
+  height: 80vh;
   border-radius: 0px;
   position: relative;
   background: white;
